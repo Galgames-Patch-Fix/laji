@@ -1,0 +1,4705 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="紗祈編"},
+		{"exautosave"},
+		{"eval", exp="f.systweet=1"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=9000, file="zev_sak_h02a", path=":ev/ev_sak_h02/", x2=-450, y2=250, x=500, y=-300, set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=3104, func="wait"},
+		{"bg", file="ev_sak_h02a", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"bgm", file="bgm14"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01429", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈……哈，千寻」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 25,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「紗祈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 28,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我拼命压抑着想要挣扎的心跳，手撑在地板上，好像要盖住纱祈祷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 30,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他们发现海边的房子很快就关门了，两人紧紧地握着手，没有看对方一眼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 32,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这就是信号。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"里面虽然有点灰尘，但已经没有时间去在意这些了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 36,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01430", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……好了，说点什么吧？　千尋の目……因为它闪闪发光」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 39,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哦，哦，对不起……在这种地方，也许算不上浪漫」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 42,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「加油，我也会让你感觉好一点，再多一点……我只是想摸摸你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 45,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01431", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「白痴……我也是第一次啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 48,
+	},
+	block_00010 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02c", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01432", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「一起加油加油？　我也是……嗯哼，我想让千寻舒服点，而且……嗯嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 53,
+	},
+	block_00011 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02b", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", file="fem_sak_02632", loop=1, cat="hvo3"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他再也忍不住了，抢走了纱祈的嘴唇。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 61,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们无法控制自己对彼此的追求，只能顺其自然。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 63,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01433", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈，啾……嗯，千寻，嗯啾……接吻，激烈，啾啾 ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 66,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「纱祈，我喜欢……紗祈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 69,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的手指抚过纤细的侧腹，从腋下把手举到乳房上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 71,
+	},
+	block_00016 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02d", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01434", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我也是，嗯啾……我喜欢千寻，啊！　嗯哼，切……千寻的手，啊，在我的胸部，哈哈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 76,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「呀，软得不得了……兴奋到莫名其妙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 79,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01435", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊呼！　怎么可能，看起来很重要……如果被揉了，嗯哼，嗯哼！　有点……感觉怪怪的，啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 82,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我控制住自己想要粗暴地揉捏它，轻轻地揉捏它。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 84,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这已经足够了。我的手指真幸福。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 86,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01436", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈，呵呵……啊，嗯！　千尋……千寻，嗯！　嗯嗯嗯 ~ ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 89,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈的嘴唇也发出甜美的声音，让我更加受不了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 91,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"用大拇指温柔地划过粉红色的乳晕和白色的乳房。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 93,
+	},
+	block_00024 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02d", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02628", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01437", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊嗯！　那个，脆脆的身体随便的……被吓到了，啊！　啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 102,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你感觉到了？　真可爱，纱祈……而且皮肤很白，真的很漂亮」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 107,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01438", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯嗯，揉着胸部，就算你这么说……哈，太丢人了，啊！　还有，你的手势，嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 110,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01439", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊呼，啊……感觉习惯了，好可怕，啊呜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 113,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哦，拜托，习惯了的人的手指怎么会这么抖？　『』……我说了我会好好学习的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 116,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他一边说，一边用指腹轻轻挤压她的乳头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 118,
+	},
+	block_00030 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02f", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01440", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊，切……千尋！？　哈，啊！　呼啊啊啊啊 ~ ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 123,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然发出尖锐的娇声，让人觉得网络信息也不可小觑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 125,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「上面说与其激烈起来，不如尽可能放松一下来得恰到好处，听起来像真的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 128,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01441", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……我不知道，哈，啊！　嗯嗯 ~ ，这……就好像这不是我的身体一样，啊啊啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 131,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01442", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「为，为什么？　只要轻轻一甩，啊啊啊啊……我，不是这样的色情，是……和自己做的太不一样了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 134,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「嘿，我自己？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 137,
+	},
+	block_00036 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02d", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01443", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……不知道，不知道！　我，我可没这么说，哈啊啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 142,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈红着脸，拍拍我的肩膀。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 144,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可爱也有限度吧！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 146,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过有点舍不得，我决定顺从地撤退，把手伸向下半身。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 148,
+	},
+	block_00040 = {
+		{"bg", time=500, file="ev_sak_h02e", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02629", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01444", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀！？　切，切，千寻……那，那边不行，那边不行，啊啊——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 158,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……已经，湿透了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 161,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把手伸进泳衣的底部，没想到那里已经湿乎乎的了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 163,
+	},
+	block_00043 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02f", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01445", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「因，因为不是！　『』……我，只有乳房，这么快……这么色情，呜呜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 168,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01446", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「自从我和千寻交往以来，都是千寻的错啊，啊啊啊啊……如果你觉得奇怪的话，我会把你打得屁滚尿流」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 171,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你在说什么啊。我都快乐得被感动了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 176,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「就是我，你感觉到了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 179,
+	},
+	block_00047 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02j", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01447", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「咿呀！　啊，啊嗯，由……我的手指动了，哈！　算了，还是啊！　你太用力了，啊呜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 184,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是的，这里应该比乳房更敏感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 186,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我兴奋得口干舌燥，但还是像看形状一样轻轻地给她按摩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 188,
+	},
+	block_00050 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02k", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01448", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊，啊嗯！　为什么？　为什么？　你只是在温柔地抚摸我……比起激烈玩弄的时候，啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 193,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01449", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「越来越多……烫死了，啊！　ち、千尋？　怎么可能，哦……你要按照这个形状，动动手指哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 196,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不，我是说第一次的时候最好在调情阶段好好看看入口」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 199,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这也是网上的信息，但是能得到这样的反应也许是因为纱祈太敏感了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 204,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是女性的生殖器似乎比想象中要灵活得多，所以怎么摸都摸不清阴道口的位置。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 206,
+	},
+	block_00055 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02k", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01450", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，啊嗯嗯！　不，不行，不行……如果你这么用力的话，哈——嗯！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 211,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「『』……对不起，不是这里吗？　我不知道该把手指放哪里」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 214,
+	},
+	block_00057 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"bg", sync=0, time=400, file="zev_sak_h02g", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01451", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呜，呜呜呜，哪……你怎么就不明白重点呢，哈哈……啊呜，也……再往下一点嘛」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 221,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「更多？　在这种裂缝的边缘……啊，是真的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 224,
+	},
+	block_00059 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02h", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"lvo", ch="sak", file="fem_sak_02619", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01452", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊啊！　ゆ、指……放到里面会很痛，哈，啊！　如、如果你不、不在门口做的话，就会碰到！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 231,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"湿成这样，把手指伸进去就疼吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 233,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不是怀疑她，但她让我觉得自己真的是个处女，让我兴奋得透不过气来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 235,
+	},
+	block_00062 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02h", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01453", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"（啊，啊啊啊！　手指，如果有人进出……只要浅一点，嗯嗯",
+					{"gaiji", text="▼"},
+					"）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 240,
+	},
+	block_00063 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02j", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01454", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"（千，千寻的……你会想象他们把你的小鸡鸡放进去，啊，哈啊……我，我）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 245,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈皱着眉头，痛苦地叹了口气。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 247,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"还是很紧吗？　为了减轻她的痛苦，我会伸长脖子把她的乳头也吸进去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 249,
+	},
+	block_00066 = {
+		{"bg", time=500, file="ev_sak_h02k", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02623", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01455", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀！？　啊啊啊，切……千寻，哦……还有你的胸部？　啊嗯，不行……那个不行！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 258,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然，纱祈的肩膀颤抖了一下，平躺着站了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 260,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"很明显你的反应会改变，让你感觉更好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 262,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01456", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……不行不行，所以那样不行啊！　啊嗯，啊嗯……等，等一下，真的，啊啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 265,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「没关系，我来……感觉好点吧，纱祈！　紗祈っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 268,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01457", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「ち、千尋……千寻，但，但，但……这，这感觉太可怕了，啊，啊",
+					{"gaiji", text="▼"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 271,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难道我要高潮了吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 273,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"领悟到这一点后，我更加兴奋了。越积越多了！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 275,
+	},
+	block_00074 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02j", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01458", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊呜，哈呜！　这个，我不知道这个……嗯嗯嗯！　乳房，和你同时做，这，这么多！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 280,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01459", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「这是我第一次，啊嗯，啊啊啊！　到，到现在这么高的地方还有吨，哈啊",
+					{"gaiji", text="▼"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 283,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他用指尖轻轻敲着纱祈的入口，专心地吮吸着干硬的乳头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 285,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"太可爱了……纱祷的身体，一切都那么可爱！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 287,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01460", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊嗯，啊嗯",
+					{"gaiji", text="▼"},
+					"　不，不，不，不，不！　千尋っ、千尋……对不起！　对不起，我……只有我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 290,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「行了行了行了……感觉到的纱祈，也很可爱哦！　真是太漂亮了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 293,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01461", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「笨蛋，笨蛋……千寻，因为千寻？　这样，就会变成这样……千寻，哈，啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 296,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01462", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「好舒服，好舒服",
+					{"gaiji", text="▼"},
+					"　只，只是被千寻碰了一下，啊……我，我要疯了，啊啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 299,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01463", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯啊，真的……真的，真的……伊克？　这个，不行",
+					{"gaiji", text="▼"},
+					"　哎，到极限了哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 302,
+	},
+	block_00083 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"bg", id=9, lv=9, sync=1, time=1000, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_sak_h02n", sync=1, time=1000, vague=100, path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01464", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不，不，不，不，不……啊啊啊啊啊 ~ ~ ~ ~ ~ ~！！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 311,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然间，纱祈像被冲上岸的白鱼一样跳了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 313,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「紗祈……嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 316,
+	},
+	block_00086 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02m", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", file="fem_sak_02634", loop=1, cat="hvo3"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01465", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈，千寻……啾啾，啾啾，嗯呜呜呜呜呜 ~ ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 323,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我会抱着你颤抖的肩膀，不停地亲吻你，直到你平静下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 325,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"过了一会儿，她全身染上了快感的桃红色，那白得过于苍白的肌肤根本无法掩饰这种快感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 327,
+	},
+	block_00089 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02l", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02626", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01466", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈……哈哈，呜呜 ~ ~……啊，只有我，只有我感觉到，哈，真丢脸」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 336,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「别担心这个，好吗。基本上，我也是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 339,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我自己早就在海面包里绷得紧紧的，在银仔身上搭起了帐篷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 341,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我要纱祈。我要纱祈！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 343,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我知道你想珍惜它，但你却费了好大劲才压抑住自己的兽欲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 345,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01467", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……太大了，我只听说了尺寸，呜呜……但是，但是，如果你变成那样，你会很痛苦的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 348,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈也察觉到了隐秘部位的状况，在胸前紧紧地握着手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 350,
+	},
+	block_00096 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"bg", sync=0, time=400, file="zev_sak_h02m", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01468", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「好，好，千寻？　我也是……我已经准备好了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 357,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01469", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我最爱的千寻处男……我可以帮你拿」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 360,
+	},
+	block_00098 = {
+		{"se", id=1, vol=100, file="se351"},
+		{"bg", time=500, file="ev_sak_h02r", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我受不了了。我已经控制不住了，我把下半身暴露出来贴在纱祈祷的阴道上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 368,
+	},
+	block_00099 = {
+		{"se", stop=1, time=500, id=1},
+		{"bg", sync=0, time=400, file="ev_sak_h02p", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01470", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀！？　『』……果然，非常大，而且……抖个不停，嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 375,
+	},
+	block_00100 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02o", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01471", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……是透明液体，好像出来了，呵呵？　……说不定，已经，精液流出来了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 380,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不管怎么说，不可能那么快的。这只是先发制人……哦，糟了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 383,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"先发制人也有可能让她怀孕。我脑海中的一个角落这么想的时候，我吓了一跳。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 385,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01472", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「什，什么，怎么了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 388,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「没有……避孕用具，放在行李里」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 391,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"包扔进了更衣室的柜子里，当然没带到这里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 393,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「啊啊啊 ~ ~ ，好不容易量了尺寸，调查了使用方法却在最后关头浪费了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 396,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「现，现在回去拿吗……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 399,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但事情到此为止，再怎么扫兴也不为过。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 401,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，一想到纱祈的身体，作为男人的我……但在那里，他紧紧抓住了我的手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 403,
+	},
+	block_00110 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02r", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01473", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……行了行了行了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 408,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哎，你不会吧……本気か？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 411,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01474", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「吧……没办法啊？　千，千寻的话……我不会后悔的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 414,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01475", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「因为我觉得今天应该没问题」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 417,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许是安全日？　一听到这句话，下腹部就不由自主地作出了反应。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 419,
+	},
+	block_00115 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02q", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01476", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「噗……你那边的千寻，看起来挺受不了的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 424,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「对不起，纱祈……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 427,
+	},
+	block_00117 = {
+		{"bg", time=500, file="ev_sak_h02q", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"龟头紧贴阴道口，轻轻滑动腰部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 431,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就这样，黏糊糊的黏液粘在阴茎表面，沿着裂缝前后摩擦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 433,
+	},
+	block_00119 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02r", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", file="fem_sak_02619", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01477", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯哼！　啊，切……千寻的小鸡，啊……温暖的，摩擦的？　啊嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 440,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「那份……我会尽量对你好的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 443,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈祷的阴道看起来已经够湿了，不过她还是想小心翼翼地把爱液洒在男性生殖系统上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 445,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是你却穿得像个股间性交，用龟头戳着纱祈祷的阴蒂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 447,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01478", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，呀呀！　等，等，千寻？　不，不是那边……我的入口，我又认不出来了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 450,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不，你刚才告诉我的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 453,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「对了，我觉得我们应该让他熟悉一下。你不喜欢吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 456,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01479", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我不是不愿意，但是……哈，啊啊啊！　我，我觉得已经没事了……嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 459,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01480", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我是……我也想让千寻感觉好点，哈哈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 462,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说实话，只要在上面摩擦一下就已经很舒服了，但我也很想快点融为一体。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 464,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我改变龟头的角度，这次按在纱祈的阴道口上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 466,
+	},
+	block_00130 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"flash", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……『』！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 473,
+	},
+	block_00131 = {
+		{"eval", exp="f.syscount=10"},
+		{"bg", sync=0, time=400, file="ev_sak_h02o", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01481", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈！？　……哎，千寻？　怎，怎么了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 482,
+	},
+	block_00132 = {
+		{"eval", exp="f.syscount=9"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不，不……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 487,
+	},
+	block_00133 = {
+		{"eval", exp="f.syscount=8"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚才那是什么？　应该还只是龟头的尖端，稍微碰了一下大阴唇后连合。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 491,
+	},
+	block_00134 = {
+		{"eval", exp="f.syscount=7"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，就在他瞄准对方轻轻一推的瞬间，一股前所未有的冲击从他的脊梁骨传了过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 495,
+	},
+	block_00135 = {
+		{"eval", exp="f.syscount=6"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许我有点太激动了？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 499,
+	},
+	block_00136 = {
+		{"eval", exp="f.syscount=5"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在裂缝上摩擦的时候，感觉应该也很正常。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 503,
+	},
+	block_00137 = {
+		{"eval", exp="f.syscount=4"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01482", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我就知道……没有橡胶，我很好奇？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 508,
+	},
+	block_00138 = {
+		{"eval", exp="f.syscount=3"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不是这样的，没关系……走，走吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 513,
+	},
+	block_00139 = {
+		{"eval", exp="f.syscount=2"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我终于可以和纱祈融为一体了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 517,
+	},
+	block_00140 = {
+		{"eval", exp="f.syscount=1"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种快乐要大得多，把那些微不足道的不适都抛在脑后。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 521,
+	},
+	block_00141 = {
+		{"eval", exp="f.syscount=0"},
+		{"bg", sync=0, time=400, file="ev_sak_h02o", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		delay = {
+			vl02 = {
+				{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+			},
+			vl03 = {
+				{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+			},
+			vl04 = {
+				{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+				{"se", id=1, file="seh005a", cat="hse"},
+			},
+			vl05 = {
+				{"cgdel", id=9, lv=9},
+			},
+			vl01 = {
+				{"bg", sync=0, time=400, file="ev_sak_h02w", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01483", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，嗯……好热！？　呜呜呜呜呜呜呜 ~ ~ ~！！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 541,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……………………『』？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 546,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管有轻微的抵触，充分放松的阴道比想象中更容易接受雄性的生殖器官。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 548,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但这并不是他发出轻微疑问的原因。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 550,
+	},
+	block_00145 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01484", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「好痛，呜呜呜 ~ ~……痛，痛苦！　呀，还是千寻太粗了，嗯嗯！　这，这么大的习惯，啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 557,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01485", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……在我体内，颤抖着，颤抖着……啊，他在胡闹，咕咕」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 560,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「啊，糟糕！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 563,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"出来了！　我，在纱祈中射精！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 565,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我浑身颤抖着，感受着一团滚烫的东西从阴茎里飞驰而过的确实的快感，却完全不知道自己为什么会高潮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 567,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我从来没有在这么一瞬间射精过？　总之，不妙！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 569,
+	},
+	block_00151 = {
+		{"se", id=1, file="se355"},
+		{"bg", sync=0, time=400, file="ev_sak_h02v", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01486", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不要，不要千寻！　你为什么突然想离开我？　呜呜，让自己的女朋友遭受这样的痛苦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 584,
+	},
+	block_00152 = {
+		{"se", stop=1, time=500, id=1},
+		{"bg", sync=0, time=400, file="ev_sak_h02w", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01487", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你必须紧紧地抱住我才行……啊，我，我要哭了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 592,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「『』……对不起，我正想这么做呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 597,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他急忙想拔出来，却被纱祈使劲抓住，动弹不得。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 599,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然说是安全日但是未经许可擅自中出的罪恶感和决定玩超级早发性射精的可怜感真是不可同日而语。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 601,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「来吧，纱祈？　今……我想他出去了，在里面」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 604,
+	},
+	block_00157 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02s", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01488", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哎，是啊……什么？　……什么！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 609,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈也慌忙看向结合部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 611,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"据说世界上有不少情侣因为第一次性交失败而分手。有那么一瞬间，我感到眼前一片漆黑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 613,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，纱祈却反过来紧紧抓住我的手臂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 615,
+	},
+	block_00161 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02u", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01489", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……嘿嘿，太好了……在我体内，那种感觉真好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 621,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「さ、紗祈？　你不生气吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 624,
+	},
+	block_00163 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02s", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01490", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯 ~……我不是说，生就好了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 629,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01491", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「而且，我能让千寻感觉好点吗……其实我只是  我很担心」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 632,
+	},
+	block_00165 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02u", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01492", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不过这样的话，嘿嘿……我也觉得痛苦是值得的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 637,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呸，我的女朋友果然是宇宙第一。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 639,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01493", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我，千寻不会后悔的……因为，因为，因为，因为，因为我爱千寻？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 644,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01494", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「所以，别摆出那副表情」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 647,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「呜，对不起……谢谢你，纱祈？　我也爱你，伙计」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 650,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她轻轻地抚摸着自己金黄色的头发，再次吻着自己最爱的情人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 652,
+	},
+	block_00171 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02t", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"lvo", ch="sak", file="fem_sak_02633", loop=1, cat="hvo3"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01495", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊呜，啾……嗯嗯，千寻……喜欢，喜欢，嗯，无论发生什么……因为我喜欢你？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 659,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是啊，我也是……我也不想谈纱祈，我很喜欢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 662,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但就这样结束了，实在太可悲了。",
+					{"rt2"},
+					"最重要的是……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 665,
+	},
+	block_00174 = {
+		{"bg", time=500, file="ev_sak_h02v", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02619", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01496", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯嗯？　呼啊……嗯啊啊，切，千寻？　小子，现在，在，里面……劈啪，嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 673,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那么轻易爆发的习惯，迈桑只靠亲吻复活。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 675,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被纱祈的阴道肉包裹着，精神饱满地向后弯曲，使阴茎海绵体膨胀，剧烈地发出脉搏。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 677,
+	},
+	block_00177 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02u", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01497", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈，哈哈……嗯哼，果然，这边的千寻……你好像觉得自己受不了了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 682,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是的……这一次，纱祷也会让你感觉很好的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 685,
+	},
+	block_00179 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02w", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02620", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01498", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊嗯！　啊，也……不用再勉强了，嗯哼……明明很喜欢，啊，啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 693,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然对腰部的使用方法有些困惑，但还是正常地启动了活塞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 695,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后我的精液和纱祈祷的纯洁就从结合处被挖出来了 Marble 图案。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 697,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这让我意识到我亲手玷污了新雪的处女雪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 699,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01499", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「唔，唔唔唔唔————！　千尋？　千寻，肚子里，前后……在动，哼，奇怪的感觉，嗯啊啊啊！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 702,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「『』……我也是，被纱祈包裹的感觉，真是不可思议」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 705,
+	},
+	block_00185 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02v", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01500", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哼，哼哼，嗯哼！　哈哈，哈哈……我们是一体的，哈哈，啊哈……咕咕」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 710,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚才那一瞬间，我自己也不知道为什么会高潮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 712,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是在纱祈祷中来回几次的时候我立刻意识到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 714,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她说，女孩子体内的感觉比自己的手舒服多了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 716,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一种疯狂的快感不断袭来，如果你毫无心理准备地闯进这样一个舒适的地方，你就会暴跳如雷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 718,
+	},
+	block_00190 = {
+		{"bg", speed=90000, file="zev_sak_h02w", path=":ev/ev_sak_h02/", x2=500, y2=-300, x=-450, y=250, set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01501", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈……啊啊！　啊嗯……啊，啊，嗯！　嗯啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 725,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人生中从未接受过男性生殖系统的纱祈的阴道本来就紧得连手指都通不过。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 727,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但现在它扩散成我的小弟弟的形状，紧紧地勒着我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 729,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01502", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「唔，唔，唔唔————————————————————————————————————————————————————————————————————————————————————————————！　呀，还是千寻的小鸡，哦，好大……太硬了，太粗了，老太婆」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 732,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「这，这样说的纱祈，才是勒得太紧了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 735,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01503", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……因为，哈哈，合啊！　啊，我明明是第一次……千寻的可是 XL 啊，啊啊啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 738,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果把 XL 的棍子放进只有手指粗细的洞里，那会很紧很痛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 740,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但舒服不仅仅是因为紧张。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 742,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01504", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「千寻，千寻……啊啊啊！　被人强行撬开了……明明就是这样，嗯，合啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 745,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"每次呼吸，阴道壁都会蠕动，像是迎接前端一般脆弱的子宫口包围着龟头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 747,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个活生生的女孩的触感，无与伦比。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 749,
+	},
+	block_00201 = {
+		{"bg", file="ev_sak_h02v", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02622", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01505", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈，哈哈……哇，哇，渐渐地……啊啊！　越来越烫了，嗯！　啊嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 757,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最重要的是，雄性的本能告诉我们，我们应该把精液放在这里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 759,
+	},
+	block_00203 = {
+		{"eval", exp="f.syscount=10"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我想把它弄出来！　想要出去，想要在纱祈祷中出去的欲望越来越强烈到暴力的程度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 763,
+	},
+	block_00204 = {
+		{"eval", exp="f.syscount=9"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01506", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「喜欢，喜欢",
+					{"gaiji", text="▼"},
+					"　太大了，应该很痛苦的……我越来越喜欢千寻了，嗯，啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 768,
+	},
+	block_00205 = {
+		{"eval", exp="f.syscount=8"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01507", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「一想到是我最喜欢的人的小弟弟，我就不想放手了！　啊呜，啊嗯……啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 773,
+	},
+	block_00206 = {
+		{"eval", exp="f.syscount=7"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈的手又绕到了我的背上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 777,
+	},
+	block_00207 = {
+		{"eval", exp="f.syscount=6"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我感觉到热情的欲望再次涌上心头。可是连我也抱着纱祈的背。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 781,
+	},
+	block_00208 = {
+		{"eval", exp="f.syscount=5"},
+		{"bg", sync=0, time=400, file="ev_sak_h02w", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01508", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯啊啊啊啊！？　不，不，千寻……你在这里，还在长大，哈哈，啊哈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 788,
+	},
+	block_00209 = {
+		{"eval", exp="f.syscount=4"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01509", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我，我……会毁了你的，啊！　啊嗯，哈啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 793,
+	},
+	block_00210 = {
+		{"eval", exp="f.syscount=3"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「咕，对不起！　我又……但是，我受不了了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 798,
+	},
+	block_00211 = {
+		{"eval", exp="f.syscount=2"},
+		{"bg", sync=0, time=400, file="ev_sak_h02v", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01510", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』？　哎，千寻的……我要接了？　哈哈，啊……所以才会这样，哈哈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 805,
+	},
+	block_00212 = {
+		{"eval", exp="f.syscount=1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01511", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀，糟糕，那个……啊，我也，啊！　啊嗯……呼啊，啊，啊啊啊啊啊！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 810,
+	},
+	block_00213 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"eval", exp="f.syscount=0"},
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_sak_h02z", sync=1, time=1000, vague=100, path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"se", id=1, file="seh005a", cat="hse"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01512", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯啊啊啊啊啊啊啊啊 ~ ~！！！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 820,
+	},
+	block_00214 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管第二次射精，精液还是以比刚才更快的速度注入。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 824,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毫无疑问，这是我这辈子感觉最好的一次。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 826,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数以亿计的精子已经无所事事地被释放到纸巾中，他们快乐地游来游去，寻找他们所爱的人的卵子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 828,
+	},
+	block_00217 = {
+		{"lvo", ch="sak", file="fem_sak_02625", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01513", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「有点，热……从千寻的小鸡，啊，热的咻 ~ ~ ~ 咻 ~ ~ ，呼啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 833,
+	},
+	block_00218 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02y", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01514", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊，都快到我子宫了，啊，啊啊 ~ ~……太厉害了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 838,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"第一次太爽了，甚至没有失去童贞的真实感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 840,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但这次，我清楚地意识到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 842,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个孩子满足了孤独的雄性的本能，这种本能一直存在于心灵的缝隙中。多么尊贵可爱的人啊！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 844,
+	},
+	block_00222 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02x", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01515", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……再问一千，嘿嘿。拿出这么多，嗯嗯……就算是安全日，你也会怀孕的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 852,
+	},
+	block_00223 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哈哈，哈哈……对不起，纱祈……紗祈っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 855,
+	},
+	block_00224 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02za", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"lvo", ch="sak", file="fem_sak_02621", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01516", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哎，等等！？　千尋っ……哈，啊啊啊！　嘿，啊……你，你不是刚拿出来的吗……哈哈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 862,
+	},
+	block_00225 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"两次射精都不能满足我，我自己还保持着最高硬度。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 864,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我想要更多纱祈祷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 866,
+	},
+	block_00227 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02y", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01517", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「厉，厉害……比刚才硬多了！　啊，啊啊啊！？　『』……不要这样压在子宫上，啊啊啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 871,
+	},
+	block_00228 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我喜欢，我喜欢！　我比以往任何时候都更喜欢你，更喜欢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 874,
+	},
+	block_00229 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01518", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊啊啊！　我，我问了一千，我是认真的，啊，啊！　他们不是想让我怀孕？　嗯嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 877,
+	},
+	block_00230 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02x", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01519", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』……已经没办法了，嘿嘿",
+					{"gaiji", text="▼"},
+					"　……啊，啊啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 882,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"让龟头嵌入子宫口，让他的腰部微微颤抖。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 884,
+	},
+	block_00232 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一遍又一遍地重复，好让我记住我的形状。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 886,
+	},
+	block_00233 = {
+		{"bg", time=500, file="ev_sak_h02y", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01520", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈，啊嗯！　等等，那个……哦，比起被猛戳，我可能会有感觉……呼啊啊！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 891,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是，是这样吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 894,
+	},
+	block_00235 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"男人那边用大点的腰会更舒服。但对女孩子来说，这点刺激就够了吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 896,
+	},
+	block_00236 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02z", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01521", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈啊——哇，我，我不知道！　千寻的小鸡，只要想到正中子宫，嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 901,
+	},
+	block_00237 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02y", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01522", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「简直莫名其妙，感觉好极了……哈哈，哈哈！　但，但是这个……千寻，好，好舒服？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 906,
+	},
+	block_00238 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「胡说八道好了……当然了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 909,
+	},
+	block_00239 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"处女的阴道压力，给人在里面就已经足够的快感了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 911,
+	},
+	block_00240 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「最重要的是，当我在纱祈祷中的时候，我似乎兴奋到了惊讶的程度」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 914,
+	},
+	block_00241 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02za", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02623", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01523", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈，哈哈……笨，笨蛋！　啊嗯，啊啊……喜欢，喜欢，喜欢！　我很喜欢，啊啊啊啊……不行！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 922,
+	},
+	block_00242 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01524", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「这，这马上就要高潮了！　哦，小鸡鸡会高潮的……太好了，啊啊啊啊！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 925,
+	},
+	block_00243 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也一样，马上就要上瘾了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 927,
+	},
+	block_00244 = {
+		{"eval", exp="f.syscount=10"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈祷中随时可以轻松射精，感觉很好！　感觉好极了，感觉好极了！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 931,
+	},
+	block_00245 = {
+		{"eval", exp="f.syscount=9"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01525", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不行，不行！　我要高潮了，要高潮了！　『』……这是我见过最厉害的！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 936,
+	},
+	block_00246 = {
+		{"eval", exp="f.syscount=8"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「呸，我也是……那就一起！　紗祈っ、紗祈！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 941,
+	},
+	block_00247 = {
+		{"eval", exp="f.syscount=7"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我已经无法思考了，我正在冲向极限。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 945,
+	},
+	block_00248 = {
+		{"eval", exp="f.syscount=6"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他沉浸在热烈、炽热、与纱祈相触的快感中！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 949,
+	},
+	block_00249 = {
+		{"eval", exp="f.syscount=5"},
+		{"bg", sync=0, time=400, file="ev_sak_h02y", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01526", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「千尋っ、千尋！　我们最好在一起……最好和千寻在一起，一起……感觉好多了，喜欢，喜欢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 956,
+	},
+	block_00250 = {
+		{"eval", exp="f.syscount=4"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我也是，纱祈！　我爱你胜过任何人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 961,
+	},
+	block_00251 = {
+		{"eval", exp="f.syscount=3"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01527", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈，啊啊啊啊！　喜欢，喜欢……我很喜欢千寻，甚至可以有个孩子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 966,
+	},
+	block_00252 = {
+		{"eval", exp="f.syscount=2"},
+		{"bg", sync=0, time=400, file="ev_sak_h02z", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01528", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊啊，啊啊！　呼啊，啊，益！　高潮，拿出来，拿出来千寻……拿出来很多哦，哈哈！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 973,
+	},
+	block_00253 = {
+		{"eval", exp="f.syscount=1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01529", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊啊啊啊啊啊啊啊啊啊啊 ~ ~ ~ ~ ~！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 978,
+	},
+	block_00254 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"eval", exp="f.syscount=0"},
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_sak_h02zb", sync=1, time=1000, vague=100, path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"se", id=1, file="seh006a", cat="hse"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈使劲向后仰的一瞬间，他的阴茎因为用力过猛而掉了下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 987,
+	},
+	block_00255 = {
+		{"se", stop=1, time=500, id=1},
+		{"lvo", ch="sak", file="fem_sak_02624", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01530", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀！？　啊啊……哎呀！　哇，这……这么多，能送到很远的地方，哈哈！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 994,
+	},
+	block_00256 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01531", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「太，太用力了……哈，啊啊啊……千寻，千寻，太厉害了，哈，啊呜呜 ~……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 997,
+	},
+	block_00257 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"连夏日的空气都觉得寒冷的阴茎，不断地吐出精液块。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 999,
+	},
+	block_00258 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"它从薄纱祈祷的下腹部到达乳房和下巴，涂上一层厚厚的白色妆容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 1001,
+	},
+	block_00259 = {
+		{"bg", sync=0, time=400, file="ev_sak_h02zd", path=":ev/ev_sak_h02/", set="ev_sak_h02"},
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"lvo", ch="sak", file="fem_sak_02626", loop=1, cat="hvo1"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01532", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哈哈，哈哈……我，我身体已经没力气了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 1009,
+	},
+	block_00260 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是啊，我也是……也许我突然开得太快了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 1012,
+	},
+	block_00261 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"两人身体无力地重叠在一起。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 1014,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他们接触的地方很温暖，汗流浃背，甚至觉得很舒服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 1016,
+	},
+	block_00263 = {
+		{"bg", x=-450, y=250, time=500, file="zev_sak_h02zd", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", sync=0, time=400, file="zev_sak_h02zb", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01533", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，千寻……啊呜，啾……嗯嗯嗯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 1023,
+	},
+	block_00264 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不管是谁，嘴唇都凑得很近，舌头缠绕在一起，仿佛沉浸在无法唤醒的余韵中。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 1025,
+	},
+	block_00265 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是啊，一直都是……只要是纱祈，我就想一直这样下去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00264",
+		linknext = "block_00266",
+		line = 1027,
+	},
+	block_00266 = {
+		{"lvo", ch="sak", stop=1, loop=1},
+		{"bg", sync=0, time=400, file="zev_sak_h02zb", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"bg", sync=0, time=400, file="zev_sak_h02zd", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01534", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啾，嗯……也许你不知道，没想到千寻竟然这么淫荡」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00265",
+		linknext = "block_00267",
+		line = 1034,
+	},
+	block_00267 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02zc", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01535", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「通常对第一个女孩，做三次？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00266",
+		linknext = "block_00268",
+		line = 1040,
+	},
+	block_00268 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「呜，说实话我自己也很惊讶」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00267",
+		linknext = "block_00269",
+		line = 1043,
+	},
+	block_00269 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能是因为连续射精的疲劳，阴茎的核心发出刺痛而迟钝的疼痛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00268",
+		linknext = "block_00270",
+		line = 1045,
+	},
+	block_00270 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管如此，她还是觉得自己可以做很多次纱祈祷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00269",
+		linknext = "block_00271",
+		line = 1047,
+	},
+	block_00271 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01536", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，不好吧。虽然我不喜欢事情总是这样……啊，我也是？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00270",
+		linknext = "block_00272",
+		line = 1050,
+	},
+	block_00272 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01537", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「因为我想给千寻很多东西」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00271",
+		linknext = "block_00273",
+		line = 1053,
+	},
+	block_00273 = {
+		{"bg", sync=0, time=400, file="zev_sak_h02zc", path=":ev/ev_sak_h02/", set="ev_sak_h02", ax=1280, ay=720, bx=-640, by=-360, x=-450, y=250},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「紗祈……我爱你，伙计」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00272",
+		linknext = "block_00274",
+		line = 1059,
+	},
+	block_00274 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"超越以往的喜爱，带着比以往更多的爱在耳边低语。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00273",
+		linknext = "block_00275",
+		line = 1061,
+	},
+	block_00275 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01538", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嘿嘿，我也是",
+					{"gaiji", text="▼"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00274",
+		linknext = "block_00276",
+		line = 1064,
+	},
+	block_00276 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01539", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「千寻的声音，语言……无用的肌肉，紧绷时手臂的力量之类的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00275",
+		linknext = "block_00277",
+		line = 1067,
+	},
+	block_00277 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01540", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「接吻时传来的体温，当然，呃……还有色情的事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00276",
+		linknext = "block_00278",
+		line = 1070,
+	},
+	block_00278 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_01541", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「所、所以下次再来吧♪　我爱你很多，千寻」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00277",
+		linknext = "block_00279",
+		line = 1073,
+	},
+	block_00279 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说实话我觉得我女朋友的可爱超越了宇宙。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00278",
+		linknext = "block_00280",
+		line = 1075,
+	},
+	block_00280 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"以我的词汇量无法很好地表达，总之今天这个时候变成了更多的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00279",
+		linknext = "block_00281",
+		line = 1077,
+	},
+	block_00281 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于身体的重叠……他的心也拉近了他们的距离。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00280",
+		linknext = "block_00282",
+		line = 1079,
+	},
+	block_00282 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"强烈的感觉和确切的感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00281",
+		linknext = "block_00283",
+		line = 1081,
+	},
+	block_00283 = {
+		{"scene", file="s02sak020"},
+		{"eval", exp="f.systweet=0"},
+		{"bgm", stop=1, time=1500},
+		{"se", stop=1, id=-1, time=1500},
+		{"vostop", stop=1, time=1500},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"se", file="se245", id=1},
+		{"bg", id=2, lv=1, file="cinema11", zoom=100, speed=1000, path=":sys/", z2=150},
+		{"bg", id=1, lv=1, speed=20000, notify="off", file="zbg_13b", path=":bg/", zone="0xfff2ee", x2=0, y2=60, x=-640, y=60, ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", func="wait", time=0},
+		{"fg", ch="紗祈", size="z1", hoho="b0083", x=-320, time=1000, mx=-40, mode=3, resize=1, path=":fg/sak/z1/", file="sak_z1b0410", face="b0018", head="sak_z1b", lv=4, id=13},
+		{"ex", time=2000, func="wait"},
+		{"bg", id=3, lv=9, file="logo_sak", x=320, y=240, speed=1000, path=":cg/", y2=300, ax=207, ay=91, bx=433, by=269},
+		{"ex", time=2000, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="02_紗祈06_01"},
+		{"text"},
+		linkback = "block_00282",
+		line = 1088,
+	},
+	label = {
+		scene = { block="block_00000", label=3 },
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,85 @@
+//////////////////////////////////////////////////
+// シナリオ管理
+//////////////////////////////////////////////////
+//精密な分岐を行うため、スクリプトで厳しいときは
+//計算のしやすいietファイルで進捗管理を行う
+*top
+// ----------------------------------
+// 通常処理（製品版・体験版）startボタン押下
+// ----------------------------------
+*main
+
+// 時間測定
+//[gettime varname = "t.time1"]
+
+
+// フラグの初期化（親変数をdelete宣言して、子変数をすべて初期化する）
+// delete宣言を繰り返すと、親変数も初期化できる
+[var name = "flag" system = "delete"] // フラグの結果
+[var name = "flag" system = "delete"] // （確実に値を消す）
+
+[var name = "koukando" system = "delete"] //選択肢の結果
+[var name = "koukando" system = "delete"] // （確実に値を消す）
+
+
+
+// メインシナリオスタート
+// デモ版
+[if estimate = "$g.gamemode == 'デモ版'"]
+	// デモ用自動automode
+	[exec command = "automode" mode = "1"]
+[/if]
+
+
+// system/preset.ietでscenario_pathは自動設定されます
+// 体験版なら、scenario/trial/
+// その他は、scenario/main/
+// これは、デバッグモードとも連動します
+
+[call file = "$scenario_path + '01.txt'" label = "top"]
+
+
+
+
+// クリアフラグ制御
+[if estimate = "$g.gamemode == '体験版'"]
+	// 体験版クリア
+	[if estimate = "$g.clear_flag_trial == 0"]
+		// 初の全クリ時にフラグアップ
+		[var name = "g.clear_flag_trial" data = "1"]
+	[/if]
+[else]
+	[if estimate = "$g.clear_flag == 0"]
+		// 初の全クリ時にフラグアップ
+		[var name = "g.clear_flag" data = "1"]
+	[/if]
+[/if]
+
+// エンディングへ
+//[call file = "system/ed.iet" label = "ed1"]
+
+
+// 時間測定
+//[gettime varname = "t.time2"]
+//[dialog title = "ミリ秒" message = "$t.time2 - t.time1"]
+
+[オートセーブ削除]
+// タイトル画面に戻るコマンド
+[タイトル画面に戻る]
+[return]
+
+
+// ----------------------------------
+// 特殊処理（体験版）specialボタン押下
+// ----------------------------------
+*trial_sp
+
+[call file = "$scenario_path + 'special.txt'" label = "top"]
+
+[オートセーブ削除]
+// タイトル画面に戻るコマンド
+[タイトル画面に戻る]
+[return]
+
+*last
+[return]

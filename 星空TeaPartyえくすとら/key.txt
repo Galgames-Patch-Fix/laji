@@ -1,0 +1,8 @@
+def.rld: 0xAE85A916
+keyfile--->key_def.bin
+
+rld:     0xE948C7A
+keyfile--->key.bin
+
+Copy Key And Check Game Install Folder To Get Keyfile
+Press any key to continue . . .

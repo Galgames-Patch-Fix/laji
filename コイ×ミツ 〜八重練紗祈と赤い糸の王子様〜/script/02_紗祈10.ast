@@ -1,0 +1,983 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="紗祈編"},
+		{"exautosave"},
+		{"bg", time=2000, file="bg_18a", path=":bg/"},
+		{"bgm", file="bgm01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"启程那天。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 13,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天空万里无云。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=60000, file="zev_sak_c07a", path=":ev/ev_sak_c07/", x2=-50, y2=-260, x=-50, y=360, set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「如果是刚才在翻页上看到的空白，就像漫画的结尾」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 32,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02321", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「那是因为『我们的战斗才刚刚开始！』不是结局？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 35,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「没错没错。那个。但对我们来说『这片天空一直延伸到法国！』是啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 38,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02322", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「敬请期待小行星6275千寻先生的下一篇连载！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 41,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们拉着旅行袋穿过机场！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 43,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从成田坐飞机，下车就是巴黎！　翅膀啊那是巴黎日！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 45,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「下一个系列是糕点师修行篇！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 48,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"晴朗地进入巴黎大学的烹饪系！　多亏了纱祈和纱祈妈妈，我的法语说得很好！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 50,
+	},
+	block_00010 = {
+		{"bg", file="ev_sak_c07b", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02323", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「那个没了。我们不允许这个系列作为编辑」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 57,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「为什么？　我打算用一个小小的糖果便便的情节来继续你的故事。这种知识型漫画的王道吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 60,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02324", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「真甜蜜！　这还不足以成为流行连载！　四周后终止！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 63,
+	},
+	block_00013 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你，你太严厉了，主编！　我这辈子都在写这个系列，我该怎么办！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 68,
+	},
+	block_00014 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07a", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02325", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「流行连载需要的，就是爱情！　有山有谷的爱情过山车！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 73,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「那个啊！　我的学校里有个女同事，虽然有点笨，但是很努力！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 76,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02326", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「就是那个那个！　你知道的！　还有一些竞争对手被称为百年一遇的天才」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 83,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哦哦！　看起来会很受欢迎！　这么说，他们会坠入爱河！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 86,
+	},
+	block_00018 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07b", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02327", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你在说什么啊！　主角不会接受非洲楝属外面的鲤鱼香蕉吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 93,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「那也是啊……这么说，我和那个孩子越来越亲密了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 96,
+	},
+	block_00020 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07a", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02328", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「没错就是那个。王道よ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 101,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「那就更王道了，其实那个孩子，有作为糕点师闪闪发光的才能」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 104,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02329", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「另一方面，千寻想成为一名糕点师，而我却跟着法国……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 107,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我偶然发现我在和女主角商量这件事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 110,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们面面相觑,",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 112,
+	},
+	block_00025 = {
+		{"bg", x=-250, y=350, zoom=120, time=500, file="zev_sak_c07e", path=":ev/ev_sak_c07/", set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02330", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈", "紗祈・千尋"},
+					"「修羅場だ！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 128,
+	},
+	block_00026 = {
+		{"bg", sync=0, time=400, file="zev_sak_c07b", path=":ev/ev_sak_c07/", set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360, x=-250, y=350, zoom=120},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02331", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你打算选那个孩子，而不是我！　真恶心。不可原谅！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 135,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"什么，那个？　不知不觉间我和另一个女孩粘在一起的故事！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 137,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「冷静点！　都是虚构的！　只是虚构的！　而且你连载漫画是为了纱祈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 140,
+	},
+	block_00029 = {
+		{"bg", sync=0, time=400, file="zev_sak_c07a", path=":ev/ev_sak_c07/", set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360, x=-250, y=350, zoom=120},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02332", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你还真是一团糟啊。我知道你对异国情调有点期待？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 145,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「大丈夫だ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 148,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我有力地断言。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 150,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「因为在我的世界里，纱祈是女主角！　我一定会赢的！　或者说根本就不会产生其他鲤鱼香蕉！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 153,
+	},
+	block_00033 = {
+		{"bg", sync=0, time=400, file="zev_sak_c07c", path=":ev/ev_sak_c07/", set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360, x=-250, y=350, zoom=120},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02333", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「……已，已经……因为你马上就要这么说了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 160,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈紧握着她的手，用力地握着。",
+					{"rt2"},
+					"痒死我了。痒死我了！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 165,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「因，因为是事实」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 168,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"已经开始交往以年为单位了，却始终觉得不自在。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 170,
+	},
+	block_00037 = {
+		{"bg", sync=0, time=400, file="zev_sak_c07b", path=":ev/ev_sak_c07/", set="ev_sak_c07", ax=1280, ay=720, bx=-640, by=-360, x=-250, y=350, zoom=120},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02334", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊，当然了……因为我是千寻的女主角」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 175,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们，莫名其妙地沉默不语。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 177,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"机场里的广播声和无数嘉莉的车轮声听起来异常响亮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 179,
+	},
+	block_00040 = {
+		{"bg", time=500, file="ev_sak_c07b", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……算了，算了，算了，以后也请多多关照」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 184,
+	},
+	block_00041 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07d", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02335", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊，我才是……我希望你能永远支持我……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 189,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「纱祈祷的事我很依赖你。从现在开始一直都是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 192,
+	},
+	block_00043 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07e", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02336", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哎，啊，呵呵。经营的事交给我吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 197,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈计划学习管理。你比我更适合这里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 199,
+	},
+	block_00045 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07a", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02337", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我们会搞砸的。然后我们的店变成了世界上最好的糕点店！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 204,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「世界一か！　梦想越大越好！　我们才刚开始爬这个坡！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 207,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02338", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我们可以爬上去的。因为，我喜欢千寻胜过喜欢我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 210,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「什么！？　你更喜欢我！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 213,
+	},
+	block_00049 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07d", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02339", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我更喜欢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 220,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我比你强十倍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 223,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02340", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我比你强100倍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 226,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我比你强1000倍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 229,
+	},
+	block_00053 = {
+		{"bg", sync=0, time=400, file="ev_sak_c07e", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02341", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「那就一直，加一勺和千寻一样的分量加糖！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 236,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「擦。原来你有这招！　那就永远赢不了了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 239,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_02342", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「我们赢了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 242,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说真的我们是闪光弹。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 246,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"周围的人都这么说，没什么问题。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 248,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为没有比一直看着这个笑容更好的未来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 250,
+	},
+	block_00059 = {
+		{"bg", file="ev_sak_c07f", path=":ev/ev_sak_c07/", set="ev_sak_c07"},
+		{"ex", time=3000, func="wait"},
+		{"eval", exp="g.mainclear=1"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00058",
+		line = 261,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

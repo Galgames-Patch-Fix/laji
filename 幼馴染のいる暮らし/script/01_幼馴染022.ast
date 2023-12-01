@@ -1,0 +1,398 @@
+ast = {
+	{
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zbg09b", path=":bg/", sync=0, time=64000, x=0, x2=-640, y=0, y2=0, zone="0xfffaf4"},
+		{"extrans"},
+		{"bgm", file="bgm03"},
+		{"text"},
+		crc ="d34f0002",
+		lang="lang_00000",
+		line=21,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00001",
+		line=23,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00002",
+		line=25,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00003",
+		line=28,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00004",
+		line=30,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00005",
+		line=37,
+	},
+	{
+		{"bgm", stop=1},
+		{"se", loop=1, vol=50, id=1, file="se392"},
+		{"fgf", frame="frame_lts", ch="舞雪", bx=-40, by=-360, disp="出右", time=2000, bgpx=":bg/", bg="zbg09b", zone="0xfffaf4", mode=3},
+		{"fg", ch="舞雪", face="b0022", file="may_z1b0200", head="may_z1b", id=21, lv=4, mode=3, path=":fg/may/z1/", resize=1, size="z1", x=180},
+		{"text"},
+		crc ="fcf908f7",
+		lang="lang_00006",
+		line=62,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00007",
+		line=64,
+	},
+	{
+		{"se", stop=1, time=1000, id=1},
+		{"cgdel", id=-1},
+		{"bg", file="white", path=":bg/", time=2000},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c06_05", path=":ev/ev_may_c06/", set="ev_may_c06", speed=6600, x=300, x2=-200, y=300, y2=-360},
+		{"ex", time=3000, func="wait"},
+		{"bg", file="ev_may_c06_05", path=":ev/ev_may_c06/", set="ev_may_c06"},
+		{"bgm", file="bgm10"},
+		{"text"},
+		crc ="996a1d05",
+		lang="lang_00008",
+		line=84,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00009",
+		line=87,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00010",
+		line=89,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c06_07", path=":ev/ev_may_c06/", set="ev_may_c06", time=500, x=360, y=360, zoom=120},
+		{"text"},
+		crc ="4e9ba610",
+		lang="lang_00011",
+		line=97,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00012",
+		line=101,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c06_07", path=":ev/ev_may_c06/", set="ev_may_c06", speed=3700, time=0, x=360, y=-10, y2=360, zoom=120},
+		{"ex", time=3700, func="wait"},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c06_08", path=":ev/ev_may_c06/", set="ev_may_c06", sync=0, time=400, x=360, y=-10, zoom=120},
+		{"text"},
+		crc ="408b8e5c",
+		lang="lang_00013",
+		line=108,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00014",
+		line=112,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00015",
+		line=114,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00016",
+		line=117,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00017",
+		line=120,
+	},
+	{
+		{"bg", file="white", path=":bg/"},
+		{"bg", file="ev_may_c06_08", path=":ev/ev_may_c06/", set="ev_may_c06", time=500},
+		{"text"},
+		crc ="ecd93191",
+		lang="lang_00018",
+		line=130,
+	},
+	{
+		{"bg", file="ev_may_c06_09", path=":ev/ev_may_c06/", set="ev_may_c06", sync=0, time=250},
+		{"text"},
+		crc ="c16ce426",
+		lang="lang_00019",
+		line=137,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00020",
+		line=140,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00021",
+		line=143,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00022",
+		line=145,
+	},
+	{
+		{"bg", file="ev_may_c06_10", path=":ev/ev_may_c06/", set="ev_may_c06", sync=0, time=400},
+		{"text"},
+		crc ="b2335630",
+		lang="lang_00023",
+		line=152,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00024",
+		line=154,
+	},
+	{
+		{"bgm", stop=1, time=1500},
+		{"bg", file="white", path=":bg/", time=2000},
+		{"excall", file="01_幼馴染023"},
+		crc ="50e300a1",
+		lang="lang_00025",
+		line=155,
+	},
+	{
+		crc ="fac35fb",
+		lang="lang_00026",
+		line=164,
+	},
+	text={
+		[1]={
+			name={name="和樹"},
+			ja={
+				{
+					"「 那个？　这个……」",
+				},
+			},
+		},
+		[2]={
+			ja={
+				{
+					"　不知什么时候，周围黄昏时分。",
+				},
+			},
+		},
+		[3]={
+			ja={
+				{
+					"　深橙色的光充满了教室。",
+				},
+			},
+		},
+		[4]={
+			name={name="和樹"},
+			ja={
+				{
+					"「真奇怪……」",
+				},
+			},
+		},
+		[5]={
+			ja={
+				{
+					"　今天放学后，我决定向舞雪坦白",
+					{"rt2"},
+					"　我答应了舞雪。",
+				},
+			},
+		},
+		[6]={
+			ja={
+				{
+					"　放学后了，我在等舞雪来？",
+				},
+			},
+		},
+		[7]={
+			ja={
+				{
+					"　风从窗户吹进来，同时摇晃着她的长发。",
+				},
+			},
+		},
+		[8]={
+			ja={
+				{
+					"　長い髪――？",
+				},
+			},
+		},
+		[9]={
+			vo={
+				{"vo", file="fem_may_00080", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「咯咯……」",
+				},
+			},
+		},
+		[10]={
+			name={name="和樹"},
+			ja={
+				{
+					"「哎，舞雪？」",
+				},
+			},
+		},
+		[11]={
+			ja={
+				{
+					"　不知什么时候，舞雪站在了那里。",
+				},
+			},
+		},
+		[12]={
+			ja={
+				{
+					"　舞雪用从未见过的严肃表情看着我。",
+					{"rt2"},
+					"　一副下定决心的表情。",
+				},
+			},
+		},
+		[13]={
+			name={name="和樹"},
+			ja={
+				{
+					"「『』……」",
+				},
+			},
+		},
+		[14]={
+			ja={
+				{
+					"　舞雪开口想告诉我们些什么。",
+					{"rt2"},
+					"　这就像 之前梦到的一样",
+				},
+			},
+		},
+		[15]={
+			name={name="和樹"},
+			ja={
+				{
+					"（……这样啊）",
+				},
+			},
+		},
+		[16]={
+			ja={
+				{
+					"　突然明白。",
+					{"rt2"},
+					"　这只是个梦。",
+				},
+			},
+		},
+		[17]={
+			ja={
+				{
+					"　是的。我方便的梦。",
+					{"rt2"},
+					"　即使我不鼓起勇气，舞雪传递给我的梦想。",
+				},
+			},
+		},
+		[18]={
+			ja={
+				{
+					"　但你不能这么做。",
+				},
+			},
+		},
+		[19]={
+			name={name="和樹"},
+			ja={
+				{
+					"「舞雪。你不用告诉我」",
+				},
+			},
+		},
+		[20]={
+			vo={
+				{"vo", file="fem_may_00081", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「『』？」",
+				},
+			},
+		},
+		[21]={
+			name={name="和樹"},
+			ja={
+				{
+					"「从我身上，从让我告诉你身上……我所有的感受」",
+				},
+			},
+		},
+		[22]={
+			name={name="和樹"},
+			ja={
+				{
+					"「所以，放心吧」",
+				},
+			},
+		},
+		[23]={
+			ja={
+				{
+					"　那也是对自己的爆发。",
+				},
+			},
+		},
+		[24]={
+			vo={
+				{"vo", file="fem_may_00082", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「咯咯……♪」",
+				},
+			},
+		},
+		[25]={
+			ja={
+				{
+					"　但是，听到我的话，舞雪似乎微笑了",
+				},
+			},
+		},
+	},
+	label={
+	},
+}

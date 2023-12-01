@@ -1,0 +1,290 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="紗祈編"},
+		{"exautosave"},
+		{"bg", file="white", path=":bg/"},
+		{"bgm", file="bgm12"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我再次紧紧抱住纱祈。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 40,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的身体很柔软，闻起来很香。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 42,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他的脸近得令人叹息。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 44,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"长睫毛。形状优美的花朵。湿润的眼睛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 46,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"柔软的嘴唇。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 48,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一切都是那么美好，那么可爱，那么漂亮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 50,
+	},
+	block_00006 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, y=12, file="zbg_13b", path=":bg/", zone="0xfff2ee", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", file="light_r01", alpha=127, lv=2, id=1, path=":cg/", sync=0},
+		{"fg", ch="紗祈", size="z2", hoho="a0082", mode=3, resize=1, path=":fg/sak/z2/", file="sak_z2a0410", face="a0011", head="sak_z2a", x=0, lv=5, id=13, sync=0},
+		{"bg", file="light_r01", alpha=63, lv=9, id=1, path=":cg/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把脸凑过去好像被吸进去了……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 76,
+	},
+	block_00007 = {
+		{"fg", ch="紗祈", hoho="a0082", mode=3, path=":fg/sak/z2/", file="sak_z2a0410", face="a0018", head="sak_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接吻了。我们接吻了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 80,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刹那间，纱祷睁大了眼睛，身体僵硬起来",
+					{"rt2"},
+					"他马上把手放在我背上，把一切都交给了我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 83,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的嘴唇，柔软，甜美。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 85,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不是说味道不好。",
+					{"rt2"},
+					"总的来说，一切都很糟糕。要融化了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 88,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"纱祈那边也能感受到嘴唇贴在嘴唇上的感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 90,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们用嘴唇和嘴唇，像混在一起似的互相吮吸。",
+					{"rt2"},
+					"他们接触的地方散发出甜甜的、黏糊糊的热量。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 93,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他们变得热乎乎的，浑身都融化了，彼此融化了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 95,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像身体的边界逐渐消失。",
+					{"rt2"},
+					"就像两个人融为一体。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 98,
+	},
+	block_00015 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"太棒了，太棒了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 102,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接吻太棒了。",
+					{"rt2"},
+					"和喜欢的女孩接吻真是太棒了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 105,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是的。已经。",
+					{"rt2"},
+					"此时此刻死而无憾！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 108,
+	},
+	block_00018 = {
+		{"excall", file="02_紗祈03_03"},
+		{"text"},
+		linkback = "block_00017",
+		line = 112,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,850 @@
+ast = {
+	{
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zbg02a", path=":bg/", sync=0, y=-70},
+		{"fg", ch="舞雪", face="a0004", file="may_z1a0200", head="may_z1a", id=13, lv=4, mode=3, path=":fg/may/z1/", resize=1, size="z1", sync=0},
+		{"extrans"},
+		{"bgm", file="bgm07"},
+		{"text"},
+		crc ="d8e8f7e8",
+		lang="lang_00000",
+		line=20,
+	},
+	{
+		{"se", id=1, file="se105"},
+		{"bg", file="ev_may_c01_01", path=":ev/ev_may_c01/", set="ev_may_c01"},
+		{"text"},
+		crc ="9ce57df5",
+		lang="lang_00001",
+		line=32,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00002",
+		line=37,
+	},
+	{
+		{"bg", file="ev_may_c01_06", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+		{"text"},
+		crc ="469e3e99",
+		lang="lang_00003",
+		line=43,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00004",
+		line=68,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00005",
+		line=70,
+	},
+	{
+		{"text"},
+		crc ="a34cb2c6",
+		lang="lang_00006",
+		line=80,
+		delay={
+			vl1={
+				{"bg", file="ev_may_c01_03", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+			},
+		},
+	},
+	{
+		{"bg", file="ev_may_c01_05", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+		{"text"},
+		crc ="64b3950e",
+		lang="lang_00007",
+		line=90,
+		delay={
+			vl1={
+				{"bg", file="ev_may_c01_06", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00008",
+		line=92,
+	},
+	{
+		{"bg", file="ev_may_c01_03", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+		{"text"},
+		crc ="42a29753",
+		lang="lang_00009",
+		line=108,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00010",
+		line=111,
+	},
+	{
+		{"bg", file="ev_may_c01_01", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400},
+		{"text"},
+		crc ="2da02cc2",
+		lang="lang_00011",
+		line=119,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00012",
+		line=122,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_01", path=":ev/ev_may_c01/", set="ev_may_c01", time=500, x=-100, y=100},
+		{"text"},
+		crc ="b7b7430c",
+		lang="lang_00013",
+		line=132,
+		delay={
+			vl1={
+				{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_02", path=":ev/ev_may_c01/", set="ev_may_c01", time=500, x=-100, y=100},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00014",
+		line=134,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00015",
+		line=137,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_05", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400, x=-100, y=100},
+		{"text"},
+		crc ="7a741561",
+		lang="lang_00016",
+		line=163,
+		delay={
+			vl1={
+				{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_03", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=250, x=-100, y=100},
+			},
+			vl2={
+				{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_06", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400, x=-100, y=100},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00017",
+		line=165,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c01_01", path=":ev/ev_may_c01/", set="ev_may_c01", sync=0, time=400, x=-100, y=100},
+		{"text"},
+		crc ="c11d4ff",
+		lang="lang_00018",
+		line=174,
+	},
+	{
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/", rule=030, time=1500, vague=40, wait=250},
+		{"text"},
+		crc ="794cbd00",
+		lang="lang_00019",
+		line=184,
+	},
+	{
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", id=3, lv=5, sync=0},
+		{"bg", file="bg12a", path=":bg/", sync=0},
+		{"fg", ch="舞雪", face="b0002", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/", resize=1, size="no", sync=0},
+		{"extrans", rule=030, time=1500, vague=40},
+		{"text"},
+		crc ="c178887e",
+		lang="lang_00020",
+		line=201,
+		delay={
+			vl1={
+				{"fgact", ch="舞雪", act="ジャンプ", lv=3, id=13},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00021",
+		line=204,
+	},
+	{
+		{"fg", ch="舞雪", face="b0004", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/"},
+		{"fgact", ch="舞雪", act="うんうん", lv=3, id=13},
+		{"text"},
+		crc ="e53717dc",
+		lang="lang_00022",
+		line=210,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00023",
+		line=213,
+	},
+	{
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zbg12a", path=":bg/", sync=0, y=-90},
+		{"bg", alpha=31, file="light_l01", id=1, lv=2, path=":cg/", sync=0},
+		{"fg", ch="舞雪", face="a0003", file="may_noa0200", head="may_noa", id=13, lv=3, mode=3, path=":fg/may/no/", sync=0},
+		{"bg", alpha=31, file="light_l01", id=2, lv=9, path=":cg/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		crc ="eeef23df",
+		lang="lang_00024",
+		line=232,
+		delay={
+			vl1={
+				{"fg", ch="舞雪", face="a0021", file="may_noa0200", head="may_noa", id=13, lv=3, mode=3, path=":fg/may/no/"},
+			},
+			vl2={
+				{"fg", ch="舞雪", face="a0020", file="may_noa0200", head="may_noa", id=13, lv=3, mode=3, path=":fg/may/no/"},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00025",
+		line=234,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00026",
+		line=237,
+	},
+	{
+		{"fg", ch="舞雪", face="b0010", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/"},
+		{"fgact", ch="舞雪", act="いいえ", lv=3, id=13},
+		{"text"},
+		crc ="b90eb6ce",
+		lang="lang_00027",
+		line=243,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00028",
+		line=246,
+	},
+	{
+		{"fg", ch="舞雪", face="b0018", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/"},
+		{"text"},
+		crc ="335f8fb5",
+		lang="lang_00029",
+		line=251,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00030",
+		line=254,
+	},
+	{
+		{"fg", ch="舞雪", face="b0021", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/"},
+		{"text"},
+		crc ="4209252b",
+		lang="lang_00031",
+		line=260,
+		delay={
+			vl1={
+				{"fg", ch="舞雪", face="b0001", file="may_nob0200", head="may_nob", id=13, lv=3, mode=3, path=":fg/may/no/"},
+			},
+		},
+	},
+	{
+		{"fgact", ch="舞雪", act="ジャンプ", lv=3, id=13},
+		{"se", id=1, file="se105"},
+		{"text"},
+		crc ="52b93263",
+		lang="lang_00032",
+		line=268,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00033",
+		line=271,
+	},
+	{
+		{"fg", ch="舞雪", face="a0013", file="may_noa0200", head="may_noa", id=13, lv=3, mode=3, path=":fg/may/no/"},
+		{"text"},
+		crc ="4127e804",
+		lang="lang_00034",
+		line=279,
+		delay={
+			vl1={
+				{"fg", ch="舞雪", face="a0004", file="may_noa0200", head="may_noa", id=13, lv=3, mode=3, path=":fg/may/no/"},
+			},
+		},
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00035",
+		line=282,
+	},
+	{
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/", rule=056, time=1500, vague=40, wait=500},
+		{"text"},
+		crc ="8e5cdd43",
+		lang="lang_00036",
+		line=289,
+	},
+	{
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", id=1, lv=5, sync=0},
+		{"cgdel", id=2, lv=5, sync=0},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zbg12a", path=":bg/", sync=0, y=-18, zoom=120},
+		{"bg", alpha=31, file="white", id=3, lv=3, path=":bg/", sync=0},
+		{"fg", ch="舞雪", face="a0015", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/", resize=1, size="z2", sync=0},
+		{"extrans", rule=056, time=1500, vague=40},
+		{"text"},
+		crc ="2e09aac7",
+		lang="lang_00037",
+		line=306,
+	},
+	{
+		{"fg", ch="舞雪", face="a0013", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+		{"text"},
+		crc ="6e52ec1b",
+		lang="lang_00038",
+		line=311,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00039",
+		line=313,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00040",
+		line=315,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00041",
+		line=318,
+	},
+	{
+		{"fg", ch="舞雪", face="a0015", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+		{"text"},
+		crc ="87084de5",
+		lang="lang_00042",
+		line=323,
+	},
+	{
+		{"fg", ch="舞雪", face="a0013", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+		{"text"},
+		crc ="6e52ec1b",
+		lang="lang_00043",
+		line=329,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00044",
+		line=333,
+	},
+	{
+		{"fg", ch="舞雪", face="a0012", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+		{"text"},
+		crc ="499e0da2",
+		lang="lang_00045",
+		line=342,
+		delay={
+			vl1={
+				{"fg", ch="舞雪", face="a0022", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+			},
+			vl2={
+				{"fg", ch="舞雪", face="a0015", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+			},
+		},
+	},
+	{
+		{"fg", ch="舞雪", face="a0003", file="may_z2a0200", head="may_z2a", id=13, lv=5, mode=3, path=":fg/may/z2/"},
+		{"text"},
+		crc ="c3afd06f",
+		lang="lang_00046",
+		line=350,
+	},
+	{
+		{"excall", file="02_幼馴染072"},
+		crc ="7e4c53e0",
+		lang="lang_00047",
+		line=351,
+	},
+	{
+		crc ="fac35fb",
+		lang="lang_00048",
+		line=354,
+	},
+	text={
+		[1]={
+			vo={
+				{"vo", file="fem_may_00438", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「早上好早上好！」",
+				},
+			},
+		},
+		[2]={
+			ja={
+				{
+					"　一出家门，舞雪就会立刻拥抱我。",
+				},
+			},
+		},
+		[3]={
+			vo={
+				{"vo", file="fem_may_00439", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「哎嘿嘿……很好？」",
+				},
+			},
+		},
+		[4]={
+			ja={
+				{
+					"　嘴唇撅得紧紧的，要求的是",
+				},
+			},
+		},
+		[5]={
+			name={name="和樹"},
+			ja={
+				{
+					"「『』……啾啾」",
+				},
+			},
+		},
+		[6]={
+			ja={
+				{
+					"　 吻。",
+				},
+			},
+		},
+		[7]={
+			vo={
+				{"vo", file="fem_may_00440", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「啾啾……哈哈　我去跟他们说早上好这是个吻」",
+				},
+			},
+		},
+		[8]={
+			vo={
+				{"vo", file="fem_may_00441", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「啊，一次兼顾太可惜了……啾♪」",
+				},
+			},
+		},
+		[9]={
+			ja={
+				{
+					"　你还会吻我的。",
+				},
+			},
+		},
+		[10]={
+			vo={
+				{"vo", file="fem_may_00442", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「呵呵 ~ ~　这是进来的那份！」",
+				},
+			},
+		},
+		[11]={
+			name={name="和樹"},
+			ja={
+				{
+					"「你太大胆了……」",
+				},
+			},
+		},
+		[12]={
+			vo={
+				{"vo", file="fem_may_00443", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「但是，今天的第一个吻，是来自咯吱咯吱」",
+				},
+			},
+		},
+		[13]={
+			name={name="和樹"},
+			ja={
+				{
+					"「因为舞雪想要啊」",
+				},
+			},
+		},
+		[14]={
+			vo={
+				{"vo", file="fem_may_00444", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「嗯，我想要更多」",
+				},
+			},
+		},
+		[15]={
+			ja={
+				{
+					"　舞雪一动不动地用她那双大眼睛看着我。",
+				},
+			},
+		},
+		[16]={
+			name={name="和樹"},
+			ja={
+				{
+					"「我要迟到了，再来一次」",
+				},
+			},
+		},
+		[17]={
+			vo={
+				{"vo", file="fem_may_00445", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「♪我知道♪　嘿嘿……啾啾」",
+				},
+			},
+		},
+		[18]={
+			ja={
+				{
+					"　只要再吻一次，就会发出吱吱的舞雪声",
+					{"rt2"},
+					"　抱住我。",
+				},
+			},
+		},
+		[19]={
+			vo={
+				{"vo", file="fem_may_00446", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「比平时多了很多，让我精神振奋」",
+				},
+			},
+		},
+		[20]={
+			ja={
+				{
+					"　舞雪の『一个吻』不可能只是早上就结束了",
+				},
+			},
+		},
+		[21]={
+			vo={
+				{"vo", file="fem_may_00447", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「是的，啊 ~」",
+				},
+			},
+		},
+		[22]={
+			name={name="和樹"},
+			ja={
+				{
+					"「嗯……嗯，很好吃」",
+				},
+			},
+		},
+		[23]={
+			vo={
+				{"vo", file="fem_may_00448", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「对吧　因为我充满了爱！」",
+				},
+			},
+		},
+		[24]={
+			name={name="和樹"},
+			ja={
+				{
+					"「我知道，我知道得太多了」",
+				},
+			},
+		},
+		[25]={
+			vo={
+				{"vo", file="fem_may_00449", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「好的，再见……奖励奖励　挺好的？」",
+				},
+			},
+		},
+		[26]={
+			ja={
+				{
+					"　舞雪咬着自己的嘴唇『ご褒美』来寻求。",
+				},
+			},
+		},
+		[27]={
+			name={name="和樹"},
+			ja={
+				{
+					"「午饭，吃完再说」",
+				},
+			},
+		},
+		[28]={
+			vo={
+				{"vo", file="fem_may_00450", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「呃.……」",
+				},
+			},
+		},
+		[29]={
+			name={name="和樹"},
+			ja={
+				{
+					"「因为我想用餐时吃得好」",
+				},
+			},
+		},
+		[30]={
+			vo={
+				{"vo", file="fem_may_00451", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「我是说甜点？」",
+				},
+			},
+		},
+		[31]={
+			name={name="和樹"},
+			ja={
+				{
+					"「虽然舞雪之吻对甜点来说太奢华了」",
+				},
+			},
+		},
+		[32]={
+			vo={
+				{"vo", file="fem_may_00452", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「呵呵……那么，用饭来开心吧♪",
+					{"rt2"},
+					" 但是」",
+				},
+			},
+		},
+		[33]={
+			ja={
+				{
+					"　舞雪把肩膀靠在我身上。",
+					{"rt2"},
+					"　这样的话，柔软的触感就会压在你身上。",
+				},
+			},
+		},
+		[34]={
+			ja={
+				{
+					"　真的，毫无保留，但是那种温暖,",
+					{"rt2"},
+					"　我非常激动非常高兴。",
+				},
+			},
+		},
+		[35]={
+			vo={
+				{"vo", file="fem_may_00453", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「粘在一起啊，那就好啦　啊 ~ ~」",
+				},
+			},
+		},
+		[36]={
+			name={name="和樹"},
+			ja={
+				{
+					"「我开动了……哈嗯」",
+				},
+			},
+		},
+		[37]={
+			ja={
+				{
+					"　 然后，当你吃完午饭。",
+				},
+			},
+		},
+		[38]={
+			vo={
+				{"vo", file="fem_may_00454", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「啾啾……啾啾……啾啾……哈哈」",
+				},
+			},
+		},
+		[39]={
+			vo={
+				{"vo", file="fem_may_00455", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「……更多」",
+				},
+			},
+		},
+		[40]={
+			ja={
+				{
+					"　吻一下，舞雪就会迷迷糊糊地对我耳语。",
+				},
+			},
+		},
+		[41]={
+			ja={
+				{
+					"　我控制不住身体发热。",
+				},
+			},
+		},
+		[42]={
+			name={name="和樹"},
+			ja={
+				{
+					"「舞雪……嗯」",
+				},
+			},
+		},
+		[43]={
+			vo={
+				{"vo", file="fem_may_00456", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「啾啾……啾，嗯嗯……哈哈……呵呵,",
+					{"rt2"},
+					"在学院接吻……啾♪」",
+				},
+			},
+		},
+		[44]={
+			vo={
+				{"vo", file="fem_may_00457", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「嗯哈……有点，你看起来很帅",
+					{"rt2"},
+					"真让人激动啊……♪」",
+				},
+			},
+		},
+		[45]={
+			name={name="和樹"},
+			ja={
+				{
+					"「是啊，我们得保证不被发现」",
+				},
+			},
+		},
+		[46]={
+			vo={
+				{"vo", file="fem_may_00458", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「传言什么的？　我还是会害羞的……是的，我想是的。",
+					{"rt2"},
+					"但你躲起来也是因为……啾♪」",
+				},
+			},
+		},
+		[47]={
+			vo={
+				{"vo", file="fem_may_00459", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「~ 喜欢 ~」",
+				},
+			},
+		},
+	},
+	label={
+	},
+}

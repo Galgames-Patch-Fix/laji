@@ -1,0 +1,8020 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="共通パート"},
+		{"exautosave"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是我还没想到，这件事以后会演变成大麻烦……",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="bg_05a", path=":bg/"},
+		{"bgm", file="bgm01"},
+		{"se", id=1, file="se242"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"放学后的钟声在白色的教学楼里响起。那时天空依然很高，像薄荷口香糖一样清新的蓝色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 46,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是隔着这层薄薄的窗玻璃，等待我们的却是一种像被烧焦的锅里一样的酷热。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 48,
+	},
+	block_00003 = {
+		{"bg", file="bg_08a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与此同时，不知道是不是离大会很近，包括祝子在内的运动部的人都冲出了教室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 52,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在开心之前，我也要先参加社团活动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 54,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我忍住不笑出来的冲动，确认了放在钱包里的预约券，抱起书包。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 56,
+	},
+	block_00006 = {
+		{"se", id=2, file="se206a"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在这时，里面传来了金属碰撞的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 62,
+	},
+	block_00007 = {
+		{"bg", x=600, y=30, time=500, file="zbg_08a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"se", stop=1, time=500, id=1},
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「恋爱大师啊！！　恋爱大师，请你听听这个孩子的故事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 70,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「再次提名？　真的是恋爱大师啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 73,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"『』？　疯狂的力量飞来飞去，不由自主地回头看。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 77,
+	},
+	block_00010 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, y=-50, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="紗祈", size="z1", mode=3, resize=1, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0009", head="sak_z1b", lv=4, id=13, sync=0},
+		{"extrans", rule=030, vague=40},
+		{"fgact", ch="紗祈", act="びっくり", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00020", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「呀，哎？　什么？　别，别说了，恋爱大师」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 91,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"八重练慌忙把什么东西塞进抽屉回头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 93,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「呀哈哈，不是很好吗！　你看起来渗透得很深」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 96,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「这样不 Emo？　这不是情绪 Emo 吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 99,
+	},
+	block_00014 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0012", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00021", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你知道吗，咪咪故意用老话来逼我，别这样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 104,
+	},
+	block_00015 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0007", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00022", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「已经没人用了，而且一旦被打中，我就会滑倒」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 109,
+	},
+	block_00016 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0007", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00023", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「还有莉亚，我们是朋友，我们说恋爱大师一点也不奇怪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 114,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「那，那个，对不起，八重练学姐……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 117,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「我的朋友告诉我，如果你有恋爱问题，可以咨询恋爱大师，他们会立即解决」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 120,
+	},
+	block_00019 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_06a", path=":bg/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哦，那边的组合总是给人一种恋爱雪の名水的印象，原来那是恋爱咨询啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 131,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"八重练一看就是百战百胜，我知道你想依靠他。只是……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 133,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这，恋爱大师？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 135,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对不起本人，但确实有点……不，这个名字会让我大笑起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 137,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我只是说，我们学院里那些精通某些知识的人『Xx 大师』有一个传统叫做。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 139,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"过去是数学大师和 j 联盟大师……甚至还有一个叫 av 大师的前辈，听起来像是在撒谎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 141,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"算了，我们学院的标准分数还是挺高的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 143,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我知道 av 大师是个都会传奇，但是我们班有一个顽固的恋爱大师。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 145,
+	},
+	block_00027 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, y=-50, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0002", head="sak_z1b", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00024", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「对不起对不起，我不是不和你商量」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 155,
+	},
+	block_00028 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0001", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00025", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「还特地跑到前辈的教室来，唔……我感觉你是不是很烦恼」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 160,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「哦，真的吗，恋爱大师！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 163,
+	},
+	block_00030 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0015", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00026", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不，所以」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 168,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「好吧，我们再一起去做 spa？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 171,
+	},
+	block_00032 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0009", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00027", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「……『』？　哎，接下来？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 176,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「呃，我们的塔皮很好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 179,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「所以已经不流行了，嘿纱祈」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 182,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「在我们家里还是很情绪化的 ~。纱祈以前不是也陪过我吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 185,
+	},
+	block_00036 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0010", hoho="b0081", face="b0008", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00028", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不，我有点……啊，不过今天更好」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 190,
+	},
+	block_00037 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0010", hoho="b0081", face="b0009", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00029", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「没办法，是吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 195,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_06a", path=":bg/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"八重练先生好像有什么其他的期待似的，感到很失望。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 203,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那里挤满了塔皮，斯塔帕。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 205,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「不，我只会赢斯塔帕，纱祈也会这么想？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 208,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「塔皮塔皮，绝对是塔皮！　求求你，纱祷ー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 211,
+	},
+	block_00042 = {
+		{"fgf", frame="float_l1", ch="紗祈", disp="出右外", basex=410, id=9, mode=3},
+		{"fg", ch="紗祈", y=-50, mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0008", head="sak_z1a", x=0, lv=4, id=21},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00030", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「嗯，嗯，嗯……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 217,
+	},
+	block_00043 = {
+		{"fgf", frame="float_l1", disp="消左外", basex=410, id=9, mode=-1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"唔，没办法啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 221,
+	},
+	block_00044 = {
+		{"se", id=1, file="se174c"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="紗祈", my=40, mode=3, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0005", head="sak_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00031", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「哦，真是没办法了！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 238,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……『』？　就在我走到旁边的时候，不巧的是八重练先生用力敲桌子站了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 242,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在这时，我的胳膊肘狠狠地陷进了我的腹腔神经处里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 244,
+	},
+	block_00047 = {
+		{"se", stop=1, time=500, id=1},
+		{"se", id=1, file="se204c"},
+		{"quake"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「咕咕」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 251,
+	},
+	block_00048 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0009", head="sak_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00032", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「对不起……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 265,
+	},
+	block_00049 = {
+		{"se", id=1, file="se206a"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我忍不住掉了包，里面的东西又叮当作响。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 271,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 274,
+	},
+	block_00051 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「等等，那是因为小行星6275突然站在你后面」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 279,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「我家纱祈祷有什么事吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 282,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"阳光女孩们理所当然地投来怀疑的目光。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 284,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"横膈膜受到重击，我无法呼吸。尽管如此，我还是从喉咙深处挤出了低沉的呻吟。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 286,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「『』……这是特别薄荷冰淇淋」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 289,
+	},
+	block_00056 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0020", head="sak_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00033", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「『』？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 294,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「如果是斯塔帕，最好明天再说……夏季特别薄荷脆饼明天才开始」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 297,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 300,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 303,
+	},
+	block_00060 = {
+		{"bg", speed=128000, file="zbg_06a", path=":bg/", x2=640, y2=200, x=-640, y=200, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"难道你不知道吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 307,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"特别薄荷冰淇淋是一种混合了奶油状薄荷冰淇淋和碎巧克力饼干的饮料。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 309,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"浓郁的甜味融化着因为炎热而干燥的喉咙流淌下来，像今天的蓝天一样清爽的清凉感作为回味吹过……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 311,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"据说是那家星巴克为了威信而开发的，这可是今年夏天限定的特色菜哦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 313,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我决定至少去喝三次。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 315,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「噗，啊哈！　小行星6275你知道的太多了你不是在胡乱期待吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 318,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「你看，果然是塔皮。或者明天也行，就明天吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 321,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「我们也想微妙地喝一杯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 324,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呼，这就对了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 326,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然对不起来咨询的一年级学生，但是如果你有优先考虑八重练的计划的话，现在应该有借口了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 328,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果我错了，那也没关系。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 330,
+	},
+	block_00071 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=600, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0007", head="sak_z1a", lv=4, id=15, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00034", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「…………」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 340,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那位八重练先生用一种似乎在挑战什么却又困惑不解的眼神瞪着我们。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 342,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我伸手去捡丢失的书包，却不由自主地互相凝视着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 344,
+	},
+	block_00074 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-400, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「那，那个，那个……什么事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 356,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"打破沉默的，竟然是一年级女生颤抖的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 358,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她害怕地指着我的包。那里正好露出一把菜刀柄。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 362,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「啊，糟糕！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 365,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"赶紧把包藏起来。但显然已经太迟了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 367,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「什么，为什么要藏起来？　不会是真的吧，呃？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 370,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「不，不，不，那个不好笑？　你怎么会随身带着菜刀」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 373,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「違う！　这只是一种刀，呃」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 376,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当我看到你被打得屁滚尿流时，我越来越着急。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 378,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为这个缘故，社团活动中应该很熟悉的道具的名字一下子说不出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 380,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「……刀子？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 383,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「所以不是，是……是的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 386,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我愚蠢地握紧刀柄，想把它从包里拿出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 388,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果我给你看，你就会知道这东西没有任何杀伤力",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 390,
+	},
+	block_00088 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「呀啊啊啊啊！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 395,
+	},
+	block_00089 = {
+		{"bg", time=500, file="bg_06a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然，教室里响起了尖叫声，引起了所有留下来的同学的注意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 399,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 401,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我发现自己口干舌燥，说不出话来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 403,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"糟了，糟了，糟了。这下糟糕了！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 405,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我能感觉到自己脸色苍白。他的两只眼睛布满血丝，瞳孔不自然地微微晃动着，视线无法定格。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 407,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在大家面前表现出模范行为可疑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 409,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果学院里有这样的家伙，我也会举报可疑人物。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 411,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊，但是我要怎么解释？　不对不对，明明不对，又会被误解！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 413,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在那时。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 415,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然，一只柔软的手重叠在我冰冷的手上，滑溜溜地夺走了刀子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 417,
+	},
+	block_00099 = {
+		{"bg", time=500, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"fg", ch="紗祈", mx=-40, mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0004", head="sak_z1a", x=0, lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00035", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「这是什么？　刀，只是一把调色板刀而已」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 427,
+	},
+	block_00100 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0001", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00036", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「你看，当你给蛋糕涂奶油的时候，就是用来把它弄平的那种？　違う？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 432,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……『』？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 434,
+	},
+	block_00102 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0010", hoho="b0081", face="b0001", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00037", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「说不定你要做点心什么的？　而且是非常正式的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 439,
+	},
+	block_00103 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0002", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00038", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「啊哈哈哈哈，可能是我第一次见到男生连调色刀都有的家伙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 444,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「好，好吧没什么」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 449,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他本来口干舌燥，却很容易说出话来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 451,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"弥漫在教室里的紧张气氛，不知不觉中也被八重练的笑声融化了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 453,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"取而代之的是现在我突然觉得很尴尬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 455,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「太，太拼命了！　你的包会发出嘎吱嘎吱的声音，我还以为里面装满了刀呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 458,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「如果不是什么奇怪的东西，不要有危险的眼神」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 461,
+	},
+	block_00110 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0010", hoho="b0081", face="b0001", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00039", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「不错嘛不错嘛。我也没想到，你只是害羞，噗噗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 466,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「咕，如果你明白我的意思，快还给我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 469,
+	},
+	block_00112 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="紗祈", size="z2", mode=3, resize=1, path=":fg/sak/z2/", file="sak_z2b0010", hoho="b0081", face="b0004", head="sak_z2b", lv=5, id=13, sync=0},
+		{"bg", lv=1, id=5, rule="008a", file="cinema01", alpha=192, time=400, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但当我伸出手时，八重练又向我投来挑战的目光。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 480,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但不知为什么，她的心脏开始跳动，她眼睛清澈的透明色(乃木坂46专辑)非常漂亮……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 482,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我感觉印象深刻地印在我的脑海里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 484,
+	},
+	block_00115 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="紗祈", size="z1", mode=3, resize=1, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0008", head="sak_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00040", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「…………对不起」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 494,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是的，先生？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 497,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"原本闪耀着强烈光芒的眼眸突然微弱地晃动起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 499,
+	},
+	block_00118 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0009", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00041", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「今天早上我撞到你的时候，你也没好好道歉。我知道不好意思，姑且」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 504,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「那，那就别一副生气的样子。你会大吃一惊的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 507,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「早上突然就不行了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 510,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好吧，那是因为她很可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 512,
+	},
+	block_00122 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0009", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00042", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「因为……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 517,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这次他像闹别扭似的移开了视线。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 519,
+	},
+	block_00124 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0008", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00043", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「……不是你的错」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 524,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「？　好吧，我很抱歉我站在门边」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 527,
+	},
+	block_00126 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0012", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00044", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 532,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知道为什么，他瞪着我，眼神里充满了惊讶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 534,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许我不是那个意思？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 536,
+	},
+	block_00129 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0004", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00045", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「没办法，就当彼此彼此吧。因为我也不喜欢你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 550,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哈，哈？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 553,
+	},
+	block_00131 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0002", head="sak_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00046", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「大家走吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 558,
+	},
+	block_00132 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_06a", path=":bg/", sync=0},
+		{"fg", ch="紗祈", size="no", mode=3, resize=1, path=":fg/sak/no/", file="sak_noa0000", hoho="a0081", face="a0002", head="sak_noa", lv=3, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ゆりりん"},
+					"「好吧，但是。到底是斯塔帕还是塔皮？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 570,
+	},
+	block_00133 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/no/", file="sak_noa0000", hoho="a0081", face="a0001", head="sak_noa", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00047", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「如果你选择塔皮，塔皮！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 575,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"みゃーこ"},
+					"「太好了！　纱祈最喜欢了 ~ ~ ~ ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 578,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"一年女子"},
+					"「……～～っ」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 581,
+	},
+	block_00136 = {
+		{"fg", ch="紗祈", mx=40, mode=-1, lv=3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"八重练带着其他女生离开后，一年级的女生也尴尬地向我低头追赶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 595,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「結局……八重练对我的什么生气了？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 598,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也是，什么意思。但是我很确定他们不喜欢我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 600,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你已经说得那么清楚了，毫无疑问。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 602,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是你看到我快被误解了，所以特意帮了我，对吧？　也许吧但是。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 604,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他好像还有别的安排，但最后还是把别人的商量放在了第一位。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 606,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果是这样的话，你就是个大好人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 608,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「奇怪的家伙……『』？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 611,
+	},
+	block_00144 = {
+		{"bg", y=-300, time=500, file="zbg_06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然发现地板上有张收据似的细长感热纸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 615,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"书店发的预约票吗，糟糕！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 617,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我以为我刚才把它放在钱包里了，但是我猜我掉包的时候它一起掉了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 619,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"差点失去了社团活动后的乐趣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 621,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对我来说，这就是生存的活力源泉，因为我一直期待着它的上市。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 623,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我轻轻地抚平预约单上的皱纹，确保标题没有错误，这次我把它紧紧地放进钱包。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 625,
+	},
+	block_00150 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=030, wait=250, file="black", path=":bg/", vague=40},
+		{"bg", file="bg_07a", path=":bg/", sync=0},
+		{"extrans", rule=030, vague=40},
+		{"bgm", file="bgm02"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后一个人来到烹饪实验室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 638,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许是下午在课堂上使用的，室温保持得很低真是帮了大忙。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 640,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然也有因为天气太热而感到疲惫不堪的，但做点心的时候室温有点冷反而更方便。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 642,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没错，为什么我会有调色刀。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 644,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那是因为我是糖果烹饪联谊会的会员。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 648,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「好吧，你也看到了，社员只有我一个」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 651,
+	},
+	block_00156 = {
+		{"bg", y=60, speed=128000, file="zbg_07a", path=":bg/", x2=-640, y2=60, x=640, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，他确实可以取而代之。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 656,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也是我在学院里唯一安心的地方。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 658,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其实我的爱好是做点心。我不仅喜欢它的美味，还喜欢它的外观可爱，所以我想自己做一个。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 660,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不久，他渐渐喜欢上了她，现在他的家人都说他是专业级的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 662,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我自己也不会输给那些店，将来我会成为一个真正的糕点师。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 664,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，他也知道自己经验不足。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 666,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是他的家人拒绝了他，说他每天只吃糖果太难受了……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 668,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果你这么认真的话，那就自立门户吧，这甚至让我在公寓里做一个人住。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 670,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"既然如此，我也开始寻找可以正式训练的场所。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 672,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在那里遇到的，竟然是学园的烹饪实习室，真是灯塔下的黑暗啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 674,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这里似乎是最近才重新装修的，这里配备了最先进的设备。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 676,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对那个设备一见钟情的我，在办公室向班主任下跪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 678,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"瘦长脸的班主任说，这可能正是改过自新的好时机，但我当作没听到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 680,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"总之，这是一个社员的糖果联谊会，得到了特别认可。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 682,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"相反，他们被命令在事后增加社员人数。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 684,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管如此，社员人数仍然是一",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 689,
+	},
+	block_00172 = {
+		{"msgoff"},
+		{"bg", file="bg_07a", path=":bg/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我知道这样做有点糟糕」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 697,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"女生自不必说，男生本来就没兴趣做点心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 699,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今年的社团活动招募也失败了，没能迎接新生，真是痛苦。原因也不用说了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 701,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是班主任似乎还是默许了，所以我也不由自主地被现状宠坏了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 703,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不管怎样，今天先从巧克力馅饼开始……嗯，那个？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 706,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把准备好的碗拉过来，里面的东西不知不觉就不见了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 708,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真奇怪，材料要提前分好……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 710,
+	},
+	block_00179 = {
+		{"bgm", stop=1},
+		{"fg", ch="双鳩", size="no", mode=1, path=":fg/hut/no/", file="hut_nob0010", hoho="b0081", face="b0017", head="hut_nob", lv=3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00002", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩", "？？？"},
+					"「咕咕……咕咕，嗯——差不多」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 721,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在这时，从厨房的阴影中传来一个声音，只能说是强盗的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 723,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学院里只有一个人会这么做。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 725,
+	},
+	block_00182 = {
+		{"bg", x=400, y=60, time=500, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你不是一直告诉我不要吃零食吗，双鸽先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 732,
+	},
+	block_00183 = {
+		{"bgm", file="bgm04"},
+		{"fg", ch="双鳩", size="z1", my=40, mode=3, resize=1, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00003", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「哎呀，已经找到了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 739,
+	},
+	block_00184 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, y=0, speed=4320, ease="easeout_cubic", file="zbg_07a", path=":bg/", x2=400, y2=-432, x=400, ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z2", y=0, speed=4320, ease="easeout_cubic", mode=3, resize=1, path=":fg/hut/z2/", file="hut_z2a0010", hoho="a0081", face="a0001", head="hut_z2a", y2=-432, lv=5, id=13, sync=0},
+		{"bg", alpha=255, lv=2, id=5, rule="008a", file="cinema11", time=400, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毫无疑问，他蹲在厨台旁边。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 749,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个学院的名人，甚至担任杂志模特，今天早上从一辆黑色豪华车上下来",
+					{"ruby", text="きぬおり"},
+					"絹織",
+					{"/ruby"},
+					{"ruby", text="ふたば"},
+					"双鳩",
+					{"/ruby"},
+					"就是那个人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 763,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生摇摇晃晃地从那里爬了出来，用手指指着我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 765,
+	},
+	block_00187 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"cgdel", lv=1, id=5, rule="008a", file=":sys/cinema01", alpha=192, time=400, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z1", mode=3, resize=1, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0005", head="hut_z1b", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00004", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「不行千寻！　你这么轻易就想揭开少女的秘密」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 778,
+	},
+	block_00188 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0003", head="hut_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00005", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「你觉得双鸽子在这种情况下会装作没看见，这才是绅士吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 783,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不，双鸽先生。我听说根据刑法，偷吃相当于诈骗罪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 786,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「作为学弟，我不能放过学长的犯罪行为，请自首」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 789,
+	},
+	block_00191 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0004", head="hut_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00006", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「又来了 ~ ，憧憬的双鸽仙派来了，真是高兴的习惯」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 794,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「所以双鸽先生」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 797,
+	},
+	block_00193 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00007", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「今天早上你还在停车场给了我一个热情的眼神？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 802,
+	},
+	block_00194 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0018", head="hut_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00008", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我肯定，很寂寞！　今日は",
+					{"ruby", text="・"},
+					"双",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"鳩",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					"见不到你就死定了！　我还以为是你的暗号呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 807,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不是，先生",
+					{"ruby", text="・"},
+					"双",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"鳩",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					{"ruby", text="・"},
+					"『』",
+					{"/ruby"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 810,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是不可思议，怎么会有这么方便的误会。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 812,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺便说一句，不知道为什么双鸽先生想被我叫做仙女，所以我决定不叫他。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 814,
+	},
+	block_00198 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0018", head="hut_z1a", lv=4, id=13},
+		{"fgact", ch="双鳩", act="びっくり", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00009", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「太过分了，千寻。你一直在玩弄我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 820,
+	},
+	block_00199 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0017", head="hut_z1a", lv=4, id=13},
+		{"fgact", ch="双鳩", act="うんうん", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00010", ch="hut"},
+			},
+			float = {
+				[1] = {name="floatsm", mode="float"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"（啪，啪，啪，啪）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 830,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「所以，我告诉过你不要吃下酒菜！　我真的会告你的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 833,
+	},
+	block_00201 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00011", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啊哈哈，反正最后也注定要消失在双鸽子的肚子里」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 838,
+	},
+	block_00202 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00012", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「可是千寻竟然这么重视我，巧克力小子真是幸福啊，你这个家伙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 843,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"欺诈的正犯嘴角粘着一块巧克力，咯咯地笑着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 845,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"丝织双鸽在整个学院都被认为是清秀完美的美少女。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 856,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是正如你所看到的，他的本性往好里说是小恶魔，往坏里说是屁话上等的小学男生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 858,
+	},
+	block_00206 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00013", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「对了我前几天好像把东西落在这里了，没看到千寻？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 872,
+	},
+	block_00207 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是的，荷包，对吧？　我把它放在那儿了，你随便拿吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 881,
+	},
+	block_00208 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是双鸽先生一看到它，就大声叫了起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 883,
+	},
+	block_00209 = {
+		{"fgf", frame="float_l1", ch="双鳩", disp="出右外", basex=410, id=9, mode=3},
+		{"fg", ch="双鳩", y=-80, mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0013", head="hut_z1a", x=0, lv=4, id=21},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00014", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「怎么回事千寻！　你为什么不打开荷包，看看里面有什么」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 889,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「『』？　因为你看」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 892,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"钱包里特意装了『千万别打开它",
+					{"gaiji", text="▼"},
+					"』上面写着",
+					{"ruby", text="ふせん"},
+					"付箋",
+					{"/ruby"},
+					"粘在上面了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 894,
+	},
+	block_00212 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只闻到陷阱的味道。怎么可能打开。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 896,
+	},
+	block_00213 = {
+		{"fg", ch="双鳩", y=-80, mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0018", head="hut_z1b", x=0, lv=4, id=21},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00015", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「通常我反而会在意！　千寻对双鸽感兴趣！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 901,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你不能这么说。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 903,
+	},
+	block_00215 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=15, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00016", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「————没办法——。那就把秘密荷包里的东西特别大公开，让你好奇的森派隐藏什么！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 913,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且双鸽先生会自己打开荷包，喂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 915,
+	},
+	block_00217 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0017", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00017", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「哒哒哒哒哒哒哒哒　从荷包里拿出来的，竟然是个小荷包」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 921,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"废话，废话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 923,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你这么做只是为了取笑我吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 925,
+	},
+	block_00220 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0009", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00018", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「更小的荷包里，哎哟？　有个小盒子」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 930,
+	},
+	block_00221 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00019", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「居然找到了一个装戒指的盒子，这真的让我很好奇？　千寻，是吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 935,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……是啊算是吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 938,
+	},
+	block_00223 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我之所以顺从，是因为我想到了双鸽所付出的无谓的努力，我有点可怜他。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 940,
+	},
+	block_00224 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00020", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「还有你在意的内容，哗啦哗啦！　竟然是神社的护身符 ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 945,
+	},
+	block_00225 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「交通安全护身符吗？　你为什么要这么做……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 948,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「难道你打算把它给我吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 951,
+	},
+	block_00227 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0002", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生瞬间露出了高兴的神情，但又复杂的试图压抑住。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 955,
+	},
+	block_00228 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是马上用灿烂的笑容把它吹走。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 957,
+	},
+	block_00229 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00021", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯... ... 果然是达默。千寻遗憾地错过了获取商品的机会ーー真可惜」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 962,
+	},
+	block_00230 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我总觉得自己做错了什么。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 964,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我太多疑浪费了我的好意。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 966,
+	},
+	block_00232 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种程度的恶作剧，故意让你上钩也不会有什么结果吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 968,
+	},
+	block_00233 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「双鸽，反正你今天也有工作？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 974,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「但是我们来了，我们可以认为接我们的车需要更长的时间」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 977,
+	},
+	block_00235 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0002", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00022", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「哎，说不定他又打算为我做点心呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 982,
+	},
+	block_00236 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「反正我希望你吃的是完成的，而不是材料」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 985,
+	},
+	block_00237 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许是现在，但这点补偿应该不错吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 987,
+	},
+	block_00238 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00023", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嘿嘿，还是那么温柔——喂，千寻。我喜欢千寻，因为她很温柔」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 992,
+	},
+	block_00239 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 997,
+	},
+	block_00240 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, x=400, y=100, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z2", mode=3, resize=1, path=":fg/hut/z2/", file="hut_z2a0000", hoho="a0081", face="a0003", head="hut_z2a", lv=5, id=15, sync=0},
+		{"bg", lv=1, id=5, rule="008a", file="cinema11", alpha=192, time=400, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从斜下方窥视的语言炸弹，让我像被勒紧了一般说不出话来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 1007,
+	},
+	block_00241 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我希望这个人能意识到自己是多么的可爱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 1009,
+	},
+	block_00242 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不仅是脸蛋，就连做模特的手、脚、腰都很匀称，比起蹩脚的人体模型，身材要好得多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 1011,
+	},
+	block_00243 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"光看她的背影，就知道她是个大美人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 1013,
+	},
+	block_00244 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果这样的女孩抬起眼睛说喜欢你，即使你知道这不是爱情的意思，你的心脏也会停止跳动。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 1015,
+	},
+	block_00245 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z1", mode=3, resize=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15, sync=0},
+		{"cgdel", lv=9, id=5, rule="008a", time=400, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00024", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「咦，怎么了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 1028,
+	},
+	block_00246 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你最好不要用”喜欢”这个词来形容双鸽」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 1031,
+	},
+	block_00247 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「还有就是你的眼睛。很多男人都会误会，然后坠入爱河」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 1034,
+	},
+	block_00248 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0011", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00025", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯，就这么回事？　那男孩就麻烦了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 1039,
+	},
+	block_00249 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, y=200, x=0, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我打开冰箱，重新补充双鸽先生吃掉的材料。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 1047,
+	},
+	block_00250 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但不知道为什么，我总能感觉到隔壁有人在看我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 1049,
+	},
+	block_00251 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z1", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0004", head="hut_z1a", lv=4, id=15, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00026", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「唔——……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 1063,
+	},
+	block_00252 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0004", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00027", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「……唔————————」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 1068,
+	},
+	block_00253 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0004", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00028", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「咕————————————————————」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 1073,
+	},
+	block_00254 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「怎，怎么回事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 1076,
+	},
+	block_00255 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我忍不住这么一问，双鸽先生翻着眼睛，害羞地笑了笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 1078,
+	},
+	block_00256 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0009", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00029", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我想让千寻坠入爱河」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 1083,
+	},
+	block_00257 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0003", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00030", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「他喜欢上了双鸽仙女？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 1088,
+	},
+	block_00258 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不好意思，我觉得我不能只喜欢女孩子的长相。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 1090,
+	},
+	block_00259 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只有这样，绝对不能有。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 1092,
+	},
+	block_00260 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……我们现在要进行心跳，请再等一会儿」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 1095,
+	},
+	block_00261 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0011", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00031", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「呵呵，千寻你的眼睛都瞎了？　真可爱」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 1100,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个人，为什么这么在乎我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 1110,
+	},
+	block_00263 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我想十有八九是为了点心吧，不如边动手边问几个你在意的问题。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 1112,
+	},
+	block_00264 = {
+		{"bg", y=60, speed=128000, file="zbg_07a", path=":bg/", x2=640, y2=60, x=-640, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我一直很好奇，双鸽先生哪个是地？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 1117,
+	},
+	block_00265 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00032", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯————怎么回事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00264",
+		linknext = "block_00266",
+		line = 1126,
+	},
+	block_00266 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽不知不觉间友谊・努力・他出版了一本标榜胜利的日本最有名的少年漫画杂志，专心阅读。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00265",
+		linknext = "block_00267",
+		line = 1128,
+	},
+	block_00267 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我假装若无其事地搅拌着融化的巧克力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00266",
+		linknext = "block_00268",
+		line = 1130,
+	},
+	block_00268 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不，在我和邻居孩子面前的时候和在学院里的双鸽是不一样的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00267",
+		linknext = "block_00269",
+		line = 1133,
+	},
+	block_00269 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「他给人的印象是一个认真、温文尔雅的优等生，当模特也能接受」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00268",
+		linknext = "block_00270",
+		line = 1136,
+	},
+	block_00270 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但只有在我面前，才会有这种感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00269",
+		linknext = "block_00271",
+		line = 1138,
+	},
+	block_00271 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00033", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啊哈哈，我不知道你在说什么——千寻？　双鸽仙女比你大哦」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00270",
+		linknext = "block_00272",
+		line = 1143,
+	},
+	block_00272 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0017", head="hut_z1a", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00034", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「她是你姐姐。也就是说她是个成年女性————这就是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00271",
+		linknext = "block_00273",
+		line = 1148,
+	},
+	block_00273 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0004", head="hut_z1a", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00035", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「你看，千寻也是！　双鸽仙女是成熟的女性……怎么了，千寻？　先生是」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00272",
+		linknext = "block_00274",
+		line = 1153,
+	},
+	block_00274 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0013", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……你没有朋友叫双鸽吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00273",
+		linknext = "block_00275",
+		line = 1160,
+	},
+	block_00275 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我很郁闷，不由自主地用直接的措辞质疑他。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00274",
+		linknext = "block_00276",
+		line = 1162,
+	},
+	block_00276 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我知道这是不可能的，但是在学院的时候双鸽看起来很闲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00275",
+		linknext = "block_00277",
+		line = 1164,
+	},
+	block_00277 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他应该忙得不可开交，经常不去上课。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00276",
+		linknext = "block_00278",
+		line = 1166,
+	},
+	block_00278 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果我有朋友的话，我觉得我不能把时间花在这里只是为了调戏我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00277",
+		linknext = "block_00279",
+		line = 1168,
+	},
+	block_00279 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0018", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00036", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啊ーーーーーーーーーーーー扎克！　双鸽先生深受伤害ー」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00278",
+		linknext = "block_00280",
+		line = 1181,
+	},
+	block_00280 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0018", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00037", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我也有在班上早上打招呼的孩子，在体育课上说要配对的时候和我一起搭档的孩子？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00279",
+		linknext = "block_00281",
+		line = 1191,
+	},
+	block_00281 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0018", head="hut_z1a", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00038", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我和那个孩子总是多余的，现在称他为好朋友也太过分了吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00280",
+		linknext = "block_00282",
+		line = 1201,
+	},
+	block_00282 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生说得太快了不让我插嘴。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00281",
+		linknext = "block_00283",
+		line = 1203,
+	},
+	block_00283 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0018", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00039", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「再说，你也不想让千寻说吧————」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00282",
+		linknext = "block_00284",
+		line = 1213,
+	},
+	block_00284 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「哦，我也有啊！　至少能配对的家伙」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00283",
+		linknext = "block_00285",
+		line = 1216,
+	},
+	block_00285 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「但是对于双鸽来说，这很意外，我在想这是怎么回事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00284",
+		linknext = "block_00286",
+		line = 1219,
+	},
+	block_00286 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在手边搅拌完第一块巧克力，然后开始融化下一块。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00285",
+		linknext = "block_00287",
+		line = 1221,
+	},
+	block_00287 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0002", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00040", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我也没办法啊。当你做这行的时候……啊哈！　虽然很疯狂，但很有趣，电锯男？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00286",
+		linknext = "block_00288",
+		line = 1226,
+	},
+	block_00288 = {
+		{"fg", ch="双鳩", mode=1, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00041", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「你在班上相当漂亮」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00287",
+		linknext = "block_00289",
+		line = 1231,
+	},
+	block_00289 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我知道，但你要么看漫画要么说话」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00288",
+		linknext = "block_00290",
+		line = 1234,
+	},
+	block_00290 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽意外地顺从地合上了《少年漫画志。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00289",
+		linknext = "block_00291",
+		line = 1236,
+	},
+	block_00291 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0017", head="hut_z1a", lv=4, id=15, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00042", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「第一印象就给人难以接近的印象，等到终于适应班级的时候，就形成了没有我的小组」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00290",
+		linknext = "block_00292",
+		line = 1249,
+	},
+	block_00292 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0016", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00043", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「就好像开学那天感冒请了一周假一样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00291",
+		linknext = "block_00293",
+		line = 1254,
+	},
+	block_00293 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"唔，你是说因为180度不同的原因和我处境完全一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00292",
+		linknext = "block_00294",
+		line = 1256,
+	},
+	block_00294 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我知道，但总觉得说不通。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00293",
+		linknext = "block_00295",
+		line = 1258,
+	},
+	block_00295 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你是说这边是地吗？　那我就说没什么好隐瞒的了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00294",
+		linknext = "block_00296",
+		line = 1261,
+	},
+	block_00296 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「如果你是双鸽，只要你愿意，你的朋友就轻而易举」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00295",
+		linknext = "block_00297",
+		line = 1264,
+	},
+	block_00297 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00044", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯  其实我也一直很好奇，千寻为什么总是先把巧克力融化再搅拌？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00296",
+		linknext = "block_00298",
+		line = 1269,
+	},
+	block_00298 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"公然转移话题。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00297",
+		linknext = "block_00299",
+		line = 1271,
+	},
+	block_00299 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0001", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00045", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「全部加入酒吧混合就快了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00298",
+		linknext = "block_00300",
+		line = 1276,
+	},
+	block_00300 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你知道吗，那样味道就不会均匀了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00299",
+		linknext = "block_00301",
+		line = 1279,
+	},
+	block_00301 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「而且虽说是一口巧克力，但是根据种类的不同，适当的温度也不一样，适当的混合的话可可的油脂就会分离出来」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00300",
+		linknext = "block_00302",
+		line = 1282,
+	},
+	block_00302 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「它们不会有光滑的口感」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00301",
+		linknext = "block_00303",
+		line = 1285,
+	},
+	block_00303 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事实上，根据可可品种及其含量的不同，巧克力的种类是无数的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00302",
+		linknext = "block_00304",
+		line = 1287,
+	},
+	block_00304 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像高级法国餐厅里有侍酒师一样，高级糕点店里总有专门经营巧克力的制巧克力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00303",
+		linknext = "block_00305",
+		line = 1289,
+	},
+	block_00305 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"巧克力这东西本来就很难对付。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00304",
+		linknext = "block_00306",
+		line = 1291,
+	},
+	block_00306 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"市面上销售的巧克力和高级浓情巧克力的味道和价格完全不同，也是因为花费的时间和技术不同。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00305",
+		linknext = "block_00307",
+		line = 1293,
+	},
+	block_00307 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00046", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我是说，也许你在混合各种巧克力，调配新的巧克力？　嘿 ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00306",
+		linknext = "block_00308",
+		line = 1298,
+	},
+	block_00308 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「差不多吧」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00307",
+		linknext = "block_00309",
+		line = 1301,
+	},
+	block_00309 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"将混合好的巧克力依次放入模具中，这次插入冰块中使其急速冷却。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00308",
+		linknext = "block_00310",
+		line = 1303,
+	},
+	block_00310 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"总不能让双鸽先生在冰箱里等到凝固吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00309",
+		linknext = "block_00311",
+		line = 1305,
+	},
+	block_00311 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00047", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「那么，我的地就像那块巧克力」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00310",
+		linknext = "block_00312",
+		line = 1310,
+	},
+	block_00312 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「是的，先生？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00311",
+		linknext = "block_00313",
+		line = 1313,
+	},
+	block_00313 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我希望你不要把话题扯得太远。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00312",
+		linknext = "block_00314",
+		line = 1315,
+	},
+	block_00314 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="ev_hut_c01a", path=":ev/ev_hut_c01/", set="ev_hut_c01", sync=0},
+		{"bg", file="reco", lv=9, id=1, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00048", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「在千寻面前的我是地，在众人面前的我也是地」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00313",
+		linknext = "block_00315",
+		line = 1326,
+	},
+	block_00315 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00049", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我也想成为大家都想要的那种清纯成熟的完美美少女」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00314",
+		linknext = "block_00316",
+		line = 1338,
+	},
+	block_00316 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你自己说自己是个美少女」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00315",
+		linknext = "block_00317",
+		line = 1341,
+	},
+	block_00317 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是双鸠先生嘴角虽然堆着笑容，但是眼睛却染上了一丝寂寞的色彩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00316",
+		linknext = "block_00318",
+		line = 1343,
+	},
+	block_00318 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00050", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「因为我没什么能帮到大家的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00317",
+		linknext = "block_00319",
+		line = 1346,
+	},
+	block_00319 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00051", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「我希望至少不要破坏大家的梦想」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00318",
+		linknext = "block_00320",
+		line = 1349,
+	},
+	block_00320 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那我也希望你不要破坏我的梦想，但我不敢说出来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00319",
+		linknext = "block_00321",
+		line = 1351,
+	},
+	block_00321 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为我担心这个人的生活方式非常疲惫，有一天他会突然在金属疲劳上断裂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00320",
+		linknext = "block_00322",
+		line = 1353,
+	},
+	block_00322 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只在我面前做回原来的自己，也许是因为我需要喘口气吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00321",
+		linknext = "block_00323",
+		line = 1355,
+	},
+	block_00323 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0001", head="hut_z1b", lv=4, id=15, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「好吧，那我们差不多要完成了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00322",
+		linknext = "block_00324",
+		line = 1365,
+	},
+	block_00324 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"取出冰冷凝固的巧克力，用厚厚的橡胶手套加一步，以防止手的温度传递。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00323",
+		linknext = "block_00325",
+		line = 1367,
+	},
+	block_00325 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"光是模仿就没什么艺术可言了，反正我也要表现出原创性。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00324",
+		linknext = "block_00326",
+		line = 1369,
+	},
+	block_00326 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0009", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00052", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啊，说不定小熊？　你是只泰迪熊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00325",
+		linknext = "block_00327",
+		line = 1374,
+	},
+	block_00327 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他没有回答，而是用铲子雕刻细小的毛发来增加真实感，同时在耳朵上装饰一条用不同模具固定的红宝石巧克力丝带。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00326",
+		linknext = "block_00328",
+		line = 1376,
+	},
+	block_00328 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"连我自己都觉得这是完美的巧克力璧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00327",
+		linknext = "block_00329",
+		line = 1378,
+	},
+	block_00329 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果时间允许的话，我会给她穿上公主般的礼服，还会稍微改变一下姿势，不过这样我就没什么意见了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00328",
+		linknext = "block_00330",
+		line = 1380,
+	},
+	block_00330 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好吧，我们给它起名叫熊咪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00329",
+		linknext = "block_00331",
+		line = 1382,
+	},
+	block_00331 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"无论是为了安慰双鸠先生，还是为了让双鸠先生看起来更有趣而下了功夫……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00330",
+		linknext = "block_00332",
+		line = 1384,
+	},
+	block_00332 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0003", head="hut_z1b", lv=4, id=15},
+		{"fgact", ch="双鳩", act="ジャンプ", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00053", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「哇，我开动了♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00331",
+		linknext = "block_00333",
+		line = 1390,
+	},
+	block_00333 = {
+		{"se", id=1, file="se083"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生从旁边轻轻伸出手，一口就把辛苦制作的精品大口吞下去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00332",
+		linknext = "block_00334",
+		line = 1396,
+	},
+	block_00334 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"库玛米ーーーーーーーーーーー！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00333",
+		linknext = "block_00335",
+		line = 1398,
+	},
+	block_00335 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「啊，啊啊啊，至少尝尝吧！　或者给我看看你的外表，双鸽先生！？　双鸽先生！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00334",
+		linknext = "block_00336",
+		line = 1401,
+	},
+	block_00336 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你看到我为了一块巧克力花了多少功夫了吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00335",
+		linknext = "block_00337",
+		line = 1404,
+	},
+	block_00337 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0018", head="hut_z1a", lv=4, id=15},
+		{"fgact", ch="双鳩", act="おじぎ", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00054", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「哎呀，好苦啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00336",
+		linknext = "block_00338",
+		line = 1411,
+	},
+	block_00338 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生把碎巧克力碎片放在上面，礼貌地伸出舌头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00337",
+		linknext = "block_00339",
+		line = 1413,
+	},
+	block_00339 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"啊，那是熊美的尸体……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00338",
+		linknext = "block_00340",
+		line = 1415,
+	},
+	block_00340 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00055", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「千寻，你已经很自豪了，这可不好吃！　噗噗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00339",
+		linknext = "block_00341",
+		line = 1420,
+	},
+	block_00341 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「这，这不可能！　它有苦味是因为它混合了苦巧克力，看这里！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00340",
+		linknext = "block_00342",
+		line = 1423,
+	},
+	block_00342 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「即使是同样的棕色也会微妙的渐变来表现毛色」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00341",
+		linknext = "block_00343",
+		line = 1426,
+	},
+	block_00343 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「为了做出这样的图案，你必须把两个或两个以上不同融化温度的巧克力组合在一起」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00342",
+		linknext = "block_00344",
+		line = 1429,
+	},
+	block_00344 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00056", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「点心是吃的东西，如果牺牲了味道就没有意义了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00343",
+		linknext = "block_00345",
+		line = 1434,
+	},
+	block_00345 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「所以，我想，我用甜巧克力来平衡核心……那个？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00344",
+		linknext = "block_00346",
+		line = 1437,
+	},
+	block_00346 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0003", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00057", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「怎么，还有甜巧克力呢！　啊，这个好吃 ~」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00345",
+		linknext = "block_00347",
+		line = 1442,
+	},
+	block_00347 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0017", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00058", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯嗯，巧克力就算这样也够好吃的了♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00346",
+		linknext = "block_00348",
+		line = 1447,
+	},
+	block_00348 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00347",
+		linknext = "block_00349",
+		line = 1450,
+	},
+	block_00349 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生把混合前的巧克力一下子扔进嘴里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00348",
+		linknext = "block_00350",
+		line = 1452,
+	},
+	block_00350 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我自己也会舔多余的巧克力尝尝味道，味道有那么奇怪吗？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00349",
+		linknext = "block_00351",
+		line = 1454,
+	},
+	block_00351 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"确实有点苦但是……不，只是苦巧克力不合你孩子的口味，我敢肯定。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00350",
+		linknext = "block_00352",
+		line = 1456,
+	},
+	block_00352 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0008", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00059", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啊，糟糕！　我得走了，糟糕」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00351",
+		linknext = "block_00353",
+		line = 1461,
+	},
+	block_00353 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「接你的车，已经来了吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00352",
+		linknext = "block_00354",
+		line = 1464,
+	},
+	block_00354 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00060", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯，他好像不知不觉就联系了我的手机……那么，回头见，千寻」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00353",
+		linknext = "block_00355",
+		line = 1471,
+	},
+	block_00355 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0019", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00061", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「啾啾",
+					{"gaiji", text="▼"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00354",
+		linknext = "block_00356",
+		line = 1478,
+	},
+	block_00356 = {
+		{"se", id=1, file="se097a"},
+		{"se", id=2, file="se123b"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_07a", path=":bg/", sync=0},
+		{"extrans", time=500},
+		{"se", stop=1, time=500, id=1},
+		{"se", stop=1, time=500, id=2},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"临走时我给了他一个飞吻，然后他就匆匆离开了实习室。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00355",
+		linknext = "block_00357",
+		line = 1494,
+	},
+	block_00357 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你这样做，会误导男人的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00356",
+		linknext = "block_00358",
+		line = 1496,
+	},
+	block_00358 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「虽然是自信之作……哈  啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00357",
+		linknext = "block_00359",
+		line = 1499,
+	},
+	block_00359 = {
+		{"se", id=1, file="se123b"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把手放在厨房的桌子上叹了口气，不知为什么从走廊上传来慌慌张张跑回来的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00358",
+		linknext = "block_00360",
+		line = 1505,
+	},
+	block_00360 = {
+		{"se", id=1, file="se097a"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="双鳩", mx=-40, mode=3, path=":fg/hut/z1/", file="hut_z1b0010", hoho="b0081", face="b0002", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你又忘带东西了吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00359",
+		linknext = "block_00361",
+		line = 1518,
+	},
+	block_00361 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00062", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「是的，我想我得告诉千寻」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00360",
+		linknext = "block_00362",
+		line = 1524,
+	},
+	block_00362 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0017", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00063", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「双鸽水手不喜欢苦的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00361",
+		linknext = "block_00363",
+		line = 1529,
+	},
+	block_00363 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……看起来是这样」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00362",
+		linknext = "block_00364",
+		line = 1532,
+	},
+	block_00364 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0009", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00064", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「但是我喜欢甜甜的。千寻要好好记住我喜欢的味道哦♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00363",
+		linknext = "block_00365",
+		line = 1537,
+	},
+	block_00365 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我又不是为双鸽先生做点心的」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00364",
+		linknext = "block_00366",
+		line = 1540,
+	},
+	block_00366 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"双鸽先生从下面看着他的脸，他的眼睛向上翻着，露出顽皮的笑容。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00365",
+		linknext = "block_00367",
+		line = 1542,
+	},
+	block_00367 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, x=400, y=100, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z2", mode=3, resize=1, path=":fg/hut/z2/", file="hut_z2b0010", hoho="b0081", face="b0009", head="hut_z2b", lv=5, id=15, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00065", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「一边这么说，一边总是迎合我的口味，我喜欢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00366",
+		linknext = "block_00368",
+		line = 1552,
+	},
+	block_00368 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00367",
+		linknext = "block_00369",
+		line = 1557,
+	},
+	block_00369 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z2/", file="hut_z2b0000", hoho="b0081", face="b0014", head="hut_z2b", lv=5, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00066", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「千寻的糖果」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00368",
+		linknext = "block_00370",
+		line = 1562,
+	},
+	block_00370 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「我，我早就知道了。按照这个流程，只能这样了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00369",
+		linknext = "block_00371",
+		line = 1574,
+	},
+	block_00371 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但还是会让你心跳加速，所以可爱的女孩都很作弊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00370",
+		linknext = "block_00372",
+		line = 1576,
+	},
+	block_00372 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z2/", file="hut_z2a0010", hoho="a0081", face="a0003", head="hut_z2a", lv=5, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00067", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嘿嘿，可以吗？　就算让双鸽仙女变得邪恶」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00371",
+		linknext = "block_00373",
+		line = 1590,
+	},
+	block_00373 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z2/", file="hut_z2a0000", hoho="a0081", face="a0011", head="hut_z2a", lv=5, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00068", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「还是说除了我，还有别的孩子可以试吃千寻的糖果？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00372",
+		linknext = "block_00374",
+		line = 1595,
+	},
+	block_00374 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「好了，好了，我不知道」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00373",
+		linknext = "block_00375",
+		line = 1598,
+	},
+	block_00375 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然不由自主地装腔作势，但是不管怎样被吃掉，双鸽先生不在的话，确实会非常尴尬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00374",
+		linknext = "block_00376",
+		line = 1600,
+	},
+	block_00376 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果没有人愿意吃，再好的糖果制作技巧也没有竞争力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00375",
+		linknext = "block_00377",
+		line = 1602,
+	},
+	block_00377 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=400, y=60, file="zbg_07a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="双鳩", size="z1", mode=3, resize=1, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0004", head="hut_z1b", lv=4, id=15, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00069", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯，其实我在看」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00376",
+		linknext = "block_00378",
+		line = 1614,
+	},
+	block_00378 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0003", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00070", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「一个男孩被千寻叫住，正在逃跑」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00377",
+		linknext = "block_00379",
+		line = 1619,
+	},
+	block_00379 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「呜，还是今天早上的事。你一直看到最后？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00378",
+		linknext = "block_00380",
+		line = 1622,
+	},
+	block_00380 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0001", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是双鸽先生一时愣住了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00379",
+		linknext = "block_00381",
+		line = 1626,
+	},
+	block_00381 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00071", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「今朝？　今天早上千寻用那双锐利的眼睛射出的光束把我赶走的，不就是那个三年级的女孩吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00380",
+		linknext = "block_00382",
+		line = 1631,
+	},
+	block_00382 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许是那个在背后说双鸽先生坏话的团伙。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00381",
+		linknext = "block_00383",
+		line = 1633,
+	},
+	block_00383 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，那个？　连二年级的男生都慌忙给我让路，难道没人看见吗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00382",
+		linknext = "block_00384",
+		line = 1635,
+	},
+	block_00384 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0010", hoho="a0081", face="a0011", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00072", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「也许，千寻在森派不知情的情况下总是做同样的事情？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00383",
+		linknext = "block_00385",
+		line = 1640,
+	},
+	block_00385 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0002", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00073", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「你午休的时候也在帮那个女孩」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00384",
+		linknext = "block_00386",
+		line = 1645,
+	},
+	block_00386 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0003", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00074", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「所以我怀疑他们是好朋友，千寻甚至想给他们吃自制的点心」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00385",
+		linknext = "block_00387",
+		line = 1650,
+	},
+	block_00387 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「啊，啊，那边？　我更惊讶你居然在看我」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00386",
+		linknext = "block_00388",
+		line = 1653,
+	},
+	block_00388 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没有朋友在身边，我没时间吃午饭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00387",
+		linknext = "block_00389",
+		line = 1655,
+	},
+	block_00389 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我会解释静玖只是个表妹。但是双鸽哥反而表情阴郁。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00388",
+		linknext = "block_00390",
+		line = 1657,
+	},
+	block_00390 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0016", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00075", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「那么，她毕竟不是个陌生人」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00389",
+		linknext = "block_00391",
+		line = 1662,
+	},
+	block_00391 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1a0000", hoho="a0081", face="a0001", head="hut_z1a", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00076", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「嗯，那你最好小心一点」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00390",
+		linknext = "block_00392",
+		line = 1667,
+	},
+	block_00392 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「这是怎么回事？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00391",
+		linknext = "block_00393",
+		line = 1670,
+	},
+	block_00393 = {
+		{"fg", ch="双鳩", mode=3, path=":fg/hut/z1/", file="hut_z1b0000", hoho="b0081", face="b0001", head="hut_z1b", lv=4, id=15},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_hut_00077", ch="hut"},
+			},
+			ja = {
+				{
+					name = {"双鳩"},
+					"「那就是……哇哦，真是一团糟！　糟糕了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00392",
+		linknext = "block_00394",
+		line = 1675,
+	},
+	block_00394 = {
+		{"se", id=1, file="se097a"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_07a", path=":bg/", sync=0},
+		{"extrans", time=500},
+		{"se", id=1, file="se123b"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"你到底要我小心什么。她听到一阵脚步声匆匆穿过走廊，没有任何解释。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00393",
+		linknext = "block_00395",
+		line = 1688,
+	},
+	block_00395 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果你这么着急，你就不用回来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00394",
+		linknext = "block_00396",
+		line = 1690,
+	},
+	block_00396 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"或者这就是我想说的，我想听到的？　那就别半途而废了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00395",
+		linknext = "block_00397",
+		line = 1694,
+	},
+	block_00397 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「真是的，如果说是双鸽先生的话，那就是双鸽先生了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00396",
+		linknext = "block_00398",
+		line = 1697,
+	},
+	block_00398 = {
+		{"bg", file="bg_05a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后我利用所有的社团活动时间，热衷于制作熊美二号。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00397",
+		linknext = "block_00399",
+		line = 1707,
+	},
+	block_00399 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"味は……最后还是迎合了双鸽先生的口味。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00398",
+		linknext = "block_00400",
+		line = 1709,
+	},
+	block_00400 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也没办法。说服自己，因为没有其他人可以喂他。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00399",
+		linknext = "block_00401",
+		line = 1711,
+	},
+	block_00401 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我觉得自己输了，不过算了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00400",
+		linknext = "block_00402",
+		line = 1713,
+	},
+	block_00402 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今天还有好戏等着你呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00401",
+		linknext = "block_00403",
+		line = 1715,
+	},
+	block_00403 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当我意识到我放在钱包里的预约单时，我忍不住哼了一声。我拼命忍耐着，向目的地疾驰而去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00402",
+		linknext = "block_00404",
+		line = 1717,
+	},
+	block_00404 = {
+		{"bgm", stop=1, time=1500},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=056, wait=500, file="black", path=":bg/", vague=40},
+		{"bg", speed=72000, rule=056, vague=40, file="zbg_18b", path=":bg/", zone="0xfff2ee", x2=0, y2=360, x=0, y=-360, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm03"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘈杂的夏日阳光也倾斜在斜阳上，把整个城市染成了糖果色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00403",
+		linknext = "block_00405",
+		line = 1736,
+	},
+	block_00405 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本以为阴凉的面积会增加一些，生活也会好过一些，没想到只要待在室外，制服就会因为出汗而变得沉重起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00404",
+		linknext = "block_00406",
+		line = 1738,
+	},
+	block_00406 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"夕阳一照，湿度就会增加，体感温度也会随之上升。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00405",
+		linknext = "block_00407",
+		line = 1740,
+	},
+	block_00407 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是现在的我，连衬衫贴在皮肤上的不快感都不在乎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00406",
+		linknext = "block_00408",
+		line = 1742,
+	},
+	block_00408 = {
+		{"bg", file="bg_11b", path=":bg/", zone="0xfff2ee"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「今天是期待已久的那部作品的发行日」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00407",
+		linknext = "block_00409",
+		line = 1747,
+	},
+	block_00409 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他从钱包里拿出预约券，不知不觉地眼睛一亮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00408",
+		linknext = "block_00410",
+		line = 1751,
+	},
+	block_00410 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这一带人来人往，位于所谓的繁华街区。但可能是因为附近有家全国知名的大型书店。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00409",
+		linknext = "block_00411",
+		line = 1753,
+	},
+	block_00411 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这家私人经营的小书店成了众所周知的漏洞。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00410",
+		linknext = "block_00412",
+		line = 1755,
+	},
+	block_00412 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为离上学路线也很远，所以和我们学生见面的可能性应该很小。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00411",
+		linknext = "block_00413",
+		line = 1757,
+	},
+	block_00413 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但这并不意味着我要买一本色情书籍。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00412",
+		linknext = "block_00414",
+		line = 1759,
+	},
+	block_00414 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们要得到的是最新一本受欢迎的少女漫画！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00413",
+		linknext = "block_00415",
+		line = 1761,
+	},
+	block_00415 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我之所以不告诉任何人而保密，当然是因为如果他们知道我喜欢黑社会的少女漫画，他们会嘲笑我的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00414",
+		linknext = "block_00416",
+		line = 1763,
+	},
+	block_00416 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"作为一个男人，我是一个少女漫画粉丝，这有点尴尬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00415",
+		linknext = "block_00417",
+		line = 1765,
+	},
+	block_00417 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我只想在发行当天就看这本漫画。而且特装版还有一本小册子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00416",
+		linknext = "block_00418",
+		line = 1767,
+	},
+	block_00418 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我还有什么选择不买吗？　无法选择的选择等同于命运。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00417",
+		linknext = "block_00419",
+		line = 1769,
+	},
+	block_00419 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不出所料，只限预订的特装版当天就售罄了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00418",
+		linknext = "block_00420",
+		line = 1771,
+	},
+	block_00420 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是我竟然有两张预约券……ん、二枚？？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00419",
+		linknext = "block_00421",
+		line = 1773,
+	},
+	block_00421 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「咦，为什么？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00420",
+		linknext = "block_00422",
+		line = 1784,
+	},
+	block_00422 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"慌慌张张地摊开手中的预约券，发现预约号码是0001和0003，连续号码都不是哦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00421",
+		linknext = "block_00423",
+		line = 1786,
+	},
+	block_00423 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我记得预约的时候，我很惊讶自己竟然在这么小的书店里预约了三个人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00422",
+		linknext = "block_00424",
+		line = 1788,
+	},
+	block_00424 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而且我希望其他粉丝也能读到，所以每次有限量版的时候我总是只买一本。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00423",
+		linknext = "block_00425",
+		line = 1790,
+	},
+	block_00425 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「不管怎么想，预约号0001肯定不是我的？　那怎么会在钱包里？？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00424",
+		linknext = "block_00426",
+		line = 1793,
+	},
+	block_00426 = {
+		{"bg", zoom=120, y=4, time=500, file="zbg_11b", path=":bg/", zone="0xfff2ee", ax=1280, ay=720, bx=-640, by=-360},
+		{"fg", ch="紗祈", mode=1, path=":fg/sak/no/", file="sak_noa0000", hoho="a0081", face="a0009", head="sak_noa", lv=3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00048", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈", "紗祈の声"},
+					"「没有……没有，怎么没有！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00425",
+		linknext = "block_00427",
+		line = 1801,
+	},
+	block_00427 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哎呀？　店里传来熟悉的声音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00426",
+		linknext = "block_00428",
+		line = 1803,
+	},
+	block_00428 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我不确定我会侧耳倾听。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00427",
+		linknext = "block_00429",
+		line = 1805,
+	},
+	block_00429 = {
+		{"fg", ch="紗祈", mode=1, path=":fg/sak/no/", file="sak_noa0000", hoho="a0081", face="a0008", head="sak_noa", lv=3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00049", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈", "紗祈の声"},
+					"「也许，当时……在教室里掉的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00428",
+		linknext = "block_00430",
+		line = 1811,
+	},
+	block_00430 = {
+		{"fg", ch="紗祈", mode=1, path=":fg/sak/no/", file="sak_nob0000", hoho="b0081", face="b0006", head="sak_nob", lv=3, id=20},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00050", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈", "紗祈の声"},
+					"「不，不，不！　为了不让任何人看到，特地在小的那家书店预约了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00429",
+		linknext = "block_00431",
+		line = 1817,
+	},
+	block_00431 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这孩子，跟我做的一样啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00430",
+		linknext = "block_00432",
+		line = 1819,
+	},
+	block_00432 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「但是现在，你说你在教室里掉了……哇哦！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00431",
+		linknext = "block_00433",
+		line = 1822,
+	},
+	block_00433 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=20, file="zbg_11b", path=":bg/", zone="0xfff2ee", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", lv=9, id=5, rule="008a", file="cinema01", alpha=192, time=400, path=":sys/", sync=0},
+		{"extrans", time=500},
+		{"fg", ch="紗祈", size="z1", mx=-40, mode=3, resize=1, path=":fg/sak/z1/", file="sak_z1a0000", hoho="a0081", face="a0006", head="sak_z1a", x=0, lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一个女孩猛地从书店里冲出来，迅速躲开。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00432",
+		linknext = "block_00434",
+		line = 1834,
+	},
+	block_00434 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"果然是八重练的声音！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00433",
+		linknext = "block_00435",
+		line = 1836,
+	},
+	block_00435 = {
+		{"fg", ch="紗祈", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", hoho="b0081", face="b0006", head="sak_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00051", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗祈"},
+					"「糟糕，糟糕，如果有人看到！　哦哦，如果你直接来书店的话……噗噗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00434",
+		linknext = "block_00436",
+		line = 1841,
+	},
+	block_00436 = {
+		{"fg", ch="紗祈", mx=40, mode=-1, lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"八重练一边垂着肩膀，一边慌慌张张地向学园跑去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00435",
+		linknext = "block_00437",
+		line = 1847,
+	},
+	block_00437 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哼，不管你觉得自己的命运有多少女漫画，你也不会一天撞到同一个女孩三次的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00436",
+		linknext = "block_00438",
+		line = 1849,
+	},
+	block_00438 = {
+		{"cgdel", lv=9, id=5, rule="008a", time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00437",
+		linknext = "block_00439",
+		line = 1854,
+	},
+	block_00439 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不，等等？　这张0001号预订票，难道是那家伙的？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00438",
+		linknext = "block_00440",
+		line = 1864,
+	},
+	block_00440 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刺激我的记忆，我才想起来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00439",
+		linknext = "block_00441",
+		line = 1866,
+	},
+	block_00441 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在教室里捡到本来打算放在钱包里的预约券，却以为是自己的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00440",
+		linknext = "block_00442",
+		line = 1868,
+	},
+	block_00442 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不断想起那是在八重练的座位附近，她被朋友叫住后慌慌张张藏在桌子里的事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00441",
+		linknext = "block_00443",
+		line = 1870,
+	},
+	block_00443 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是白辣妹，恋爱大师那家伙？？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00442",
+		linknext = "block_00444",
+		line = 1872,
+	},
+	block_00444 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我只能这么认为，但同时又觉得不可能。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00443",
+		linknext = "block_00445",
+		line = 1874,
+	},
+	block_00445 = {
+		{"bg", time=500, file="bg_11b", path=":bg/", zone="0xfff2ee"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正犹豫着该不该追的时候，八重练的背影转眼间就消失在商店街的另一边了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00444",
+		linknext = "block_00446",
+		line = 1878,
+	},
+	block_00446 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「也许这一次，我们撞对地方了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00445",
+		linknext = "block_00447",
+		line = 1881,
+	},
+	block_00447 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果八重练也是这部漫画的粉丝的话，那么这一天是多么的期待。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00446",
+		linknext = "block_00448",
+		line = 1883,
+	},
+	block_00448 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我觉得我能理解那种感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00447",
+		linknext = "block_00449",
+		line = 1885,
+	},
+	block_00449 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"哦，为什么你不马上打电话给我？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00448",
+		linknext = "block_00450",
+		line = 1887,
+	},
+	block_00450 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"千尋"},
+					"「你做了什么坏事……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00449",
+		linknext = "block_00451",
+		line = 1892,
+	},
+	block_00451 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，我们并没有确凿的证据，只有一种模糊不清的感觉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00450",
+		linknext = "block_00452",
+		line = 1894,
+	},
+	block_00452 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然，充满湿气的空气不愉快地包裹着他的皮肤。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00451",
+		linknext = "block_00453",
+		line = 1896,
+	},
+	block_00453 = {
+		{"bg", file="bg_18b", path=":bg/", zone="0xfff2ee"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我无助地呆呆望着渐渐被蓝色赶走的晚空。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00452",
+		linknext = "block_00454",
+		line = 1900,
+	},
+	block_00454 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=056, wait=500, file="black", path=":bg/", vague=40},
+		{"bg", rule=056, vague=40, file="bg_18c", path=":bg/", zone="0xe4f0f9"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"回到房间后，这件事一直在我脑海里挥之不去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00453",
+		linknext = "block_00455",
+		line = 1912,
+	},
+	block_00455 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"打开那么期待已久的少女漫画，我几乎无法顺利进入那个世界。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00454",
+		linknext = "block_00456",
+		line = 1914,
+	},
+	block_00456 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=010, wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg_03c", path=":bg/", zone="0xfdfeff", sync=0},
+		{"extrans", rule=010, vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"同じ頃――",
+					{"ruby", text="せんば"},
+					"千葉",
+					{"/ruby"},
+					{"ruby", text="しずく"},
+					"静玖",
+					{"/ruby"},
+					"他独自一人坐在开着空调的房间里，坐在 PC 前。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00455",
+		linknext = "block_00457",
+		line = 1928,
+	},
+	block_00457 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=114000, file="zev_siz_c01a", path=":ev/ev_siz_c01/", x2=-640, y2=-360, x=500, y=200, set="ev_siz_c01", ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm09"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00031", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「将目标放入中心并单击，将目标放入中心并单击」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00456",
+		linknext = "block_00458",
+		line = 1941,
+	},
+	block_00458 = {
+		{"se", id=1, file="se420c"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"每次她按下鼠标按钮，屏幕都会因为压迫天空的爆炸声和沉重的后坐力而剧烈摇晃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00457",
+		linknext = "block_00459",
+		line = 1947,
+	},
+	block_00459 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后一个像电影里特种部队一样的大块头，脑袋上喷出血红色的灯光效果，消失在沙漠的露珠中。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00458",
+		linknext = "block_00460",
+		line = 1949,
+	},
+	block_00460 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"静玖不慌不忙地沿着键盘移动左手，以最小的动作躲到另一个阴影里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00459",
+		linknext = "block_00461",
+		line = 1953,
+	},
+	block_00461 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后下一个士兵跳了出来，但是静玖操纵的角色已经把目标锁定在了十字网站的中间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00460",
+		linknext = "block_00462",
+		line = 1955,
+	},
+	block_00462 = {
+		{"se", id=1, file="se420c"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大口径步枪上的闪光喷嘴立刻闪烁起来，伴随着红色的飞沫，多边形的士兵被撞到墙上晕倒了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00461",
+		linknext = "block_00463",
+		line = 1961,
+	},
+	block_00463 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"没错，她戴着 VR 面具全神贯注，就是所谓的 FPS 游戏。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00462",
+		linknext = "block_00464",
+		line = 1965,
+	},
+	block_00464 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他们同时连接了大约六十名玩家，以皇家大战的方式战斗到最后一人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00463",
+		linknext = "block_00465",
+		line = 1967,
+	},
+	block_00465 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"作为一个冷酷的狙击手，她在这个世界上是一个相当有名的玩家。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00464",
+		linknext = "block_00466",
+		line = 1971,
+	},
+	block_00466 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"空调开得太多，也不是因为她极端怕热。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00465",
+		linknext = "block_00467",
+		line = 1973,
+	},
+	block_00467 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为为了获得高端性能而使 cpu 发生超频的游戏 PC 会发出高烧，而且经常会把电路烧焦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00466",
+		linknext = "block_00468",
+		line = 1975,
+	},
+	block_00468 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……你可能不知道我在说什么，但总而言之。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00467",
+		linknext = "block_00469",
+		line = 1977,
+	},
+	block_00469 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千叶静玖是一支顽强的队伍。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00468",
+		linknext = "block_00470",
+		line = 1979,
+	},
+	block_00470 = {
+		{"bgm", stop=1},
+		{"bg", file="ev_siz_c01b", path=":ev/ev_siz_c01/", set="ev_siz_c01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00032", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「把目标转移到中心……啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00469",
+		linknext = "block_00471",
+		line = 1986,
+	},
+	block_00471 = {
+		{"se", id=1, file="se208"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是在最后三个人的时候，她的命运终于走到了尽头。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00470",
+		linknext = "block_00472",
+		line = 1992,
+	},
+	block_00472 = {
+		{"se", id=2, file="se351"},
+		{"bg", time=500, file="ev_siz_c01d", path=":ev/ev_siz_c01/", set="ev_siz_c01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00033", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「……真可惜。你又错过了冠军」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00471",
+		linknext = "block_00473",
+		line = 2003,
+	},
+	block_00473 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"显然，除了静玖，其他两个人是同一队的，没有进入观战模式，紧接着就出现了 rizzoli 画面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00472",
+		linknext = "block_00474",
+		line = 2007,
+	},
+	block_00474 = {
+		{"bg", sync=0, time=400, file="ev_siz_c01c", path=":ev/ev_siz_c01/", set="ev_siz_c01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00034", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「个人表演，可能到底是极限了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00473",
+		linknext = "block_00475",
+		line = 2012,
+	},
+	block_00475 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但即使是在网上，静玖也不擅长和别人交流。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00474",
+		linknext = "block_00476",
+		line = 2014,
+	},
+	block_00476 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使使用语音聊天，他们也不能很好地与陌生人交流。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00475",
+		linknext = "block_00477",
+		line = 2016,
+	},
+	block_00477 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只是今天有件事比这更让我心烦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00476",
+		linknext = "block_00478",
+		line = 2018,
+	},
+	block_00478 = {
+		{"bg", x=500, y=200, time=500, file="zev_siz_c01f", path=":ev/ev_siz_c01/", set="ev_siz_c01", ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00035", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「我好久没跟你说过话了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00477",
+		linknext = "block_00479",
+		line = 2025,
+	},
+	block_00479 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来这应该是件令人高兴的事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00478",
+		linknext = "block_00480",
+		line = 2027,
+	},
+	block_00480 = {
+		{"bg", sync=0, time=400, file="zev_siz_c01g", path=":ev/ev_siz_c01/", set="ev_siz_c01", ax=1280, ay=720, bx=-640, by=-360, x=500, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00036", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「小美人真好，小美人总是帮助我们」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00479",
+		linknext = "block_00481",
+		line = 2032,
+	},
+	block_00481 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00037", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「自从我进了学院，我们就没怎么聊过」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00480",
+		linknext = "block_00482",
+		line = 2035,
+	},
+	block_00482 = {
+		{"bg", sync=0, time=400, file="zev_siz_c01e", path=":ev/ev_siz_c01/", set="ev_siz_c01", ax=1280, ay=720, bx=-640, by=-360, x=500, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00038", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「我想和你一起玩，就像以前一样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00481",
+		linknext = "block_00483",
+		line = 2040,
+	},
+	block_00483 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我想起了我最喜欢的表哥当时说过的一句抱歉的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00482",
+		linknext = "block_00484",
+		line = 2042,
+	},
+	block_00484 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"『以前有传言说你有个可怕的哥哥』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00483",
+		linknext = "block_00485",
+		line = 2044,
+	},
+	block_00485 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00039", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「因为那时候还有很多其他的事情……小琪，你是不是还在乎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00484",
+		linknext = "block_00486",
+		line = 2047,
+	},
+	block_00486 = {
+		{"bg", sync=0, time=400, file="zev_siz_c01g", path=":ev/ev_siz_c01/", set="ev_siz_c01", ax=1280, ay=720, bx=-640, by=-360, x=500, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00040", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「我想他们还在等我们」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00485",
+		linknext = "block_00487",
+		line = 2052,
+	},
+	block_00487 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00041", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「我希望我们能更亲近」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00486",
+		linknext = "block_00488",
+		line = 2055,
+	},
+	block_00488 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然只有几句话，但在静玖心中，这种感觉比以往更加强烈、更加强烈。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00487",
+		linknext = "block_00489",
+		line = 2057,
+	},
+	block_00489 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-600, y=-60, file="zbg_03c", path=":bg/", zone="0xfdfeff", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="静玖", size="z1", mode=3, resize=1, path=":fg/siz/z1/", file="siz_z1a0301", hoho="a0081", face="a0001", head="siz_z1a", lv=4, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00042", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「是的！　带上那个，也许我们还能一起玩」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00488",
+		linknext = "block_00490",
+		line = 2070,
+	},
+	block_00490 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顽固的静玖从充电船坞里挖出来的是日本最有名的携带型游戏机。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00489",
+		linknext = "block_00491",
+		line = 2072,
+	},
+	block_00491 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然主机已经从当时的硬件进行了新老交替，但是以前经常带着千寻和携带型游戏机一起玩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00490",
+		linknext = "block_00492",
+		line = 2074,
+	},
+	block_00492 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们那时玩的游戏的最新版本，也是从我们的硬盘上发布的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00491",
+		linknext = "block_00493",
+		line = 2076,
+	},
+	block_00493 = {
+		{"fg", ch="静玖", mode=3, path=":fg/siz/z1/", file="siz_z1b0301", hoho="b0081", face="b0001", head="siz_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00043", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「小琪，你也有吗？　算了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00492",
+		linknext = "block_00494",
+		line = 2081,
+	},
+	block_00494 = {
+		{"fg", ch="静玖", mode=3, path=":fg/siz/z1/", file="siz_z1b0311", hoho="b0081", face="b0003", head="siz_z1b", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_siz_00044", ch="siz"},
+			},
+			ja = {
+				{
+					name = {"静玖"},
+					"「我有三辆，我可以借给你」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00493",
+		linknext = "block_00495",
+		line = 2086,
+	},
+	block_00495 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", zoom=120, x=-600, y=-12, file="zbg_03c", path=":bg/", zone="0xfdfeff", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="静玖", size="z2", mode=3, resize=1, path=":fg/siz/z2/", file="siz_z2b0311", hoho="b0081", face="b0003", head="siz_z2b", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千叶静玖很顽强。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00494",
+		linknext = "block_00496",
+		line = 2103,
+	},
+	block_00496 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当他们最喜欢的游戏的限量版与主机配套销售时，即使没有必要，他们也会购买。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00495",
+		linknext = "block_00497",
+		line = 2105,
+	},
+	block_00497 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像千寻不得不预购少女漫画的特装版一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00496",
+		linknext = "block_00498",
+		line = 2107,
+	},
+	block_00498 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"表兄妹之间，血脉无法争夺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00497",
+		linknext = "block_00499",
+		line = 2109,
+	},
+	block_00499 = {
+		{"bgm", stop=1, time=1500},
+		{"se", stop=1, id=-1, time=1500},
+		{"vostop", stop=1, time=1500},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"se", file="se245", id=1},
+		{"bg", id=2, lv=1, file="cinema11", zoom=100, speed=1000, path=":sys/", z2=150},
+		{"bg", id=1, lv=1, speed=20000, notify="off", file="zbg_06a", path=":bg/", x2=0, y2=0, x=640, y=0, ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", func="wait", time=0},
+		{"fg", ch="紗祈", size="z1", x=320, time=1000, mx=40, mode=3, path=":fg/sak/z1/", file="sak_z1a0010", hoho="a0081", face="a0001", head="sak_z1a", lv=4, id=13},
+		{"ex", time=2000, func="wait"},
+		{"bg", id=3, lv=9, file="logo", x=-320, y=240, speed=1000, path=":cg/", y2=300, ax=207, ay=78, bx=433, by=282},
+		{"ex", time=2000, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="01_共通02_01"},
+		{"text"},
+		linkback = "block_00498",
+		line = 2115,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

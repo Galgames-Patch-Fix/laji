@@ -1,0 +1,379 @@
+ast = {
+	{
+		{"bgm", stop=1},
+		{"bg", file="white", path=":bg/", time=3000},
+		{"bg", file="ev_may_c05_32", path=":ev/ev_may_c05/", set="ev_may_c05"},
+		{"bgm", file="bgm04"},
+		{"text"},
+		crc ="87b5c885",
+		lang="lang_00000",
+		line=23,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00001",
+		line=25,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00002",
+		line=28,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00003",
+		line=32,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00004",
+		line=34,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c05_32", path=":ev/ev_may_c05/", set="ev_may_c05", time=500, x=-600, y=160},
+		{"text"},
+		crc ="504a0a9a",
+		lang="lang_00005",
+		line=39,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00006",
+		line=42,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00007",
+		line=44,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00008",
+		line=47,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00009",
+		line=49,
+	},
+	{
+		{"se", id=1, file="se106"},
+		{"text"},
+		crc ="29b3205c",
+		lang="lang_00010",
+		line=54,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00011",
+		line=56,
+	},
+	{
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zev_may_c05_38", path=":ev/ev_may_c05/", set="ev_may_c05", sync=0, time=400, x=-600, y=160},
+		{"text"},
+		crc ="77066622",
+		lang="lang_00012",
+		line=61,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00013",
+		line=63,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00014",
+		line=67,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00015",
+		line=69,
+	},
+	{
+		{"bg", file="ev_may_c05_38", path=":ev/ev_may_c05/", set="ev_may_c05", time=500},
+		{"text"},
+		crc ="50348616",
+		lang="lang_00016",
+		line=73,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00017",
+		line=76,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00018",
+		line=80,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00019",
+		line=82,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00020",
+		line=85,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00021",
+		line=88,
+	},
+	{
+		{"text"},
+		crc ="799cd8ab",
+		lang="lang_00022",
+		line=91,
+	},
+	{
+		{"bgm", stop=1, time=1500},
+		{"se", stop=1, id=-1, time=1500},
+		{"vostop", stop=1, time=1500},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/", time=1500},
+		{"ex", time=1500, func="wait"},
+		{"bg", file="cinema11", id=2, lv=1, path=":sys/", speed=1000, z2=150, zoom=100},
+		{"bg", ax=1280, ay=720, bx=-640, by=-360, file="zbg15a", id=1, lv=1, path=":bg/", speed=20000, x=-200, x2=200, y=0, y2=0},
+		{"ex", func="wait", time=0},
+		{"fg", ch="舞雪", face="b0013", file="may_z1b0300", head="may_z1b", id=13, lv=4, mode=3, mx=-40, path=":fg/may/z1/", resize=1, size="z1", time=1000, x=-320},
+		{"ex", time=1000, func="wait"},
+		{"sysvo", file=":sysvo/may_titlecall3"},
+		{"bg", ax=200, ay=54, bx=440, by=306, file="logo", id=3, lv=9, path=":cg/", speed=1000, x=320, y=240, y2=300},
+		{"ex", time=3000, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/"},
+		{"sysvo", stop=1, time=1000},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="04_幼馴染181"},
+		crc ="282eabae",
+		lang="lang_00023",
+		line=92,
+	},
+	{
+		crc ="fac35fb",
+		lang="lang_00024",
+		line=97,
+	},
+	text={
+		[1]={
+			vo={
+				{"vo", file="fem_may_01863", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「呜呜……呜呜……躲猫猫……」",
+				},
+			},
+		},
+		[2]={
+			ja={
+				{
+					"　之后，我们一起洗澡，互相洗背,",
+					{"rt2"},
+					"　上床睡觉。",
+				},
+			},
+		},
+		[3]={
+			ja={
+				{
+					"　累了吧，舞雪在我怀里",
+					{"rt2"},
+					"　他立刻开始呼吸。",
+				},
+			},
+		},
+		[4]={
+			name={name="和樹"},
+			ja={
+				{
+					"「……算了，今天发生了很多事」",
+				},
+			},
+		},
+		[5]={
+			ja={
+				{
+					"　遇到我的偶像，或是充分地爱我。",
+				},
+			},
+		},
+		[6]={
+			vo={
+				{"vo", file="fem_may_01864", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「噗噗……咯咯咯……♪」",
+				},
+			},
+		},
+		[7]={
+			name={name="和樹"},
+			ja={
+				{
+					"「『』？」",
+				},
+			},
+		},
+		[8]={
+			ja={
+				{
+					"　我以为你醒了，看来是在说梦话。",
+				},
+			},
+		},
+		[9]={
+			name={name="和樹"},
+			ja={
+				{
+					"「我在这里 ~」",
+				},
+			},
+		},
+		[10]={
+			ja={
+				{
+					"　小声说，不要吵醒她，拥抱舞雪。",
+				},
+			},
+		},
+		[11]={
+			vo={
+				{"vo", file="fem_may_01865", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「呵呵……♪」",
+				},
+			},
+		},
+		[12]={
+			ja={
+				{
+					"　即使是无意识的舞雪也会紧紧地粘在一起。",
+				},
+			},
+		},
+		[13]={
+			vo={
+				{"vo", file="fem_may_01866", ch="may" },
+			},
+			name={name="舞雪"},
+			ja={
+				{
+					"「嘿嘿……」",
+				},
+			},
+		},
+		[14]={
+			ja={
+				{
+					"　然后给我一个微笑。",
+					{"rt2"},
+					"　是做了个好梦，还是因为拥抱了。",
+				},
+			},
+		},
+		[15]={
+			name={name="和樹"},
+			ja={
+				{
+					"「……我喜欢」",
+				},
+			},
+		},
+		[16]={
+			ja={
+				{
+					"　情不自禁地表达自己的感受。",
+				},
+			},
+		},
+		[17]={
+			ja={
+				{
+					"　见见小行星3785和夏娃，看看他们之间的关系",
+					{"rt2"},
+					"　是因为嫉妒吗。",
+				},
+			},
+		},
+		[18]={
+			ja={
+				{
+					"　真的，他们很般配。",
+					{"rt2"},
+					"　那两个人，就要结婚了",
+				},
+			},
+		},
+		[19]={
+			name={name="和樹"},
+			ja={
+				{
+					"「結婚……」",
+				},
+			},
+		},
+		[20]={
+			ja={
+				{
+					"　虽然还没有真正的感觉，但是以后也会",
+					{"rt2"},
+					"　我真心想和舞雪在一起。",
+				},
+			},
+		},
+		[21]={
+			ja={
+				{
+					"　当然，如果是结婚『愛』不只是",
+					{"rt2"},
+					"　我知道你需要很多东西。",
+				},
+			},
+		},
+		[22]={
+			ja={
+				{
+					"　尽管如此……最重要的是，这种感觉。",
+				},
+			},
+		},
+		[23]={
+			name={name="和樹"},
+			ja={
+				{
+					"「未来……『』」",
+				},
+			},
+		},
+	},
+	label={
+	},
+}
